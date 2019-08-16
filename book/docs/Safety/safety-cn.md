@@ -2,18 +2,24 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
 - [XSS](#xss)
-  - [如何攻击](#%E5%A6%82%E4%BD%95%E6%94%BB%E5%87%BB)
-  - [如何防御](#%E5%A6%82%E4%BD%95%E9%98%B2%E5%BE%A1)
+  - [如何攻击](#如何攻击)
+  - [如何防御](#如何防御)
   - [CSP](#csp)
 - [CSRF](#csrf)
-  - [如何攻击](#%E5%A6%82%E4%BD%95%E6%94%BB%E5%87%BB-1)
-  - [如何防御](#%E5%A6%82%E4%BD%95%E9%98%B2%E5%BE%A1-1)
+  - [如何攻击](#如何攻击-1)
+  - [如何防御](#如何防御-1)
     - [SameSite](#samesite)
-    - [验证 Referer](#%E9%AA%8C%E8%AF%81-referer)
+    - [验证 Referer](#验证-referer)
     - [Token](#token)
-- [密码安全](#%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8)
-  - [加盐](#%E5%8A%A0%E7%9B%90)
+- [密码安全](#密码安全)
+  - [加盐](#加盐)
+
+<!-- /code_chunk_output -->
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

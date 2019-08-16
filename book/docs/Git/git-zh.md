@@ -2,10 +2,16 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Rebase 合并](#rebase-%E5%90%88%E5%B9%B6)
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [Rebase 合并](#rebase-合并)
 - [stash](#stash)
 - [reflog](#reflog)
 - [Reset](#reset)
+
+<!-- /code_chunk_output -->
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

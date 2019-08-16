@@ -2,30 +2,36 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [网络相关](#%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3)
-  - [DNS 预解析](#dns-%E9%A2%84%E8%A7%A3%E6%9E%90)
-  - [缓存](#%E7%BC%93%E5%AD%98)
-    - [强缓存](#%E5%BC%BA%E7%BC%93%E5%AD%98)
-    - [协商缓存](#%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98)
-      - [Last-Modified 和 If-Modified-Since](#last-modified-%E5%92%8C-if-modified-since)
-      - [ETag 和 If-None-Match](#etag-%E5%92%8C-if-none-match)
-    - [选择合适的缓存策略](#%E9%80%89%E6%8B%A9%E5%90%88%E9%80%82%E7%9A%84%E7%BC%93%E5%AD%98%E7%AD%96%E7%95%A5)
-  - [使用 HTTP / 2.0](#%E4%BD%BF%E7%94%A8-http--20)
-  - [预加载](#%E9%A2%84%E5%8A%A0%E8%BD%BD)
-  - [预渲染](#%E9%A2%84%E6%B8%B2%E6%9F%93)
-- [优化渲染过程](#%E4%BC%98%E5%8C%96%E6%B8%B2%E6%9F%93%E8%BF%87%E7%A8%8B)
-  - [懒执行](#%E6%87%92%E6%89%A7%E8%A1%8C)
-  - [懒加载](#%E6%87%92%E5%8A%A0%E8%BD%BD)
-- [文件优化](#%E6%96%87%E4%BB%B6%E4%BC%98%E5%8C%96)
-  - [图片优化](#%E5%9B%BE%E7%89%87%E4%BC%98%E5%8C%96)
-    - [计算图片大小](#%E8%AE%A1%E7%AE%97%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F)
-    - [图片加载优化](#%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E4%BC%98%E5%8C%96)
-  - [其他文件优化](#%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6%E4%BC%98%E5%8C%96)
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [网络相关](#网络相关)
+  - [DNS 预解析](#dns-预解析)
+  - [缓存](#缓存)
+    - [强缓存](#强缓存)
+    - [协商缓存](#协商缓存)
+      - [Last-Modified 和 If-Modified-Since](#last-modified-和-if-modified-since)
+      - [ETag 和 If-None-Match](#etag-和-if-none-match)
+    - [选择合适的缓存策略](#选择合适的缓存策略)
+  - [使用 HTTP / 2.0](#使用-http-20)
+  - [预加载](#预加载)
+  - [预渲染](#预渲染)
+- [优化渲染过程](#优化渲染过程)
+  - [懒执行](#懒执行)
+  - [懒加载](#懒加载)
+- [文件优化](#文件优化)
+  - [图片优化](#图片优化)
+    - [计算图片大小](#计算图片大小)
+    - [图片加载优化](#图片加载优化)
+  - [其他文件优化](#其他文件优化)
   - [CDN](#cdn)
-- [其他](#%E5%85%B6%E4%BB%96)
-  - [使用 Webpack 优化项目](#%E4%BD%BF%E7%94%A8-webpack-%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE)
-  - [监控](#%E7%9B%91%E6%8E%A7)
-  - [面试题](#%E9%9D%A2%E8%AF%95%E9%A2%98)
+- [其他](#其他)
+  - [使用 Webpack 优化项目](#使用-webpack-优化项目)
+  - [监控](#监控)
+  - [面试题](#面试题)
+
+<!-- /code_chunk_output -->
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
