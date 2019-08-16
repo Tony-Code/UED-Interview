@@ -1,0 +1,595 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>安全 · JavaScript中文文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="tony">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-lightbox/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../source/css/website.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Career/How-to-use-your-time-correctly.html" />
+    
+    
+    <link rel="prev" href="../Performance/performance-ch.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"Tony-Code","repo":"javascript","type":"star","size":"small","count":true}]};
+    </script>
+
+    
+        <link rel="shortcut icon" href='../../source/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../source/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../source/images/favicon.ico'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../source/images/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../source/images/favicon.ico">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Algorithm/algorithm-ch.html">
+            
+                <a href="../Algorithm/algorithm-ch.html">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Browser/browser-ch.html">
+            
+                <a href="../Browser/browser-ch.html">
+            
+                    
+                    浏览器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../DataStruct/dataStruct-zh.html">
+            
+                <a href="../DataStruct/dataStruct-zh.html">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Framework/framework-zh.html">
+            
+                <a href="../Framework/framework-zh.html">
+            
+                    
+                    框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Framework/react-zh.html">
+            
+                <a href="../Framework/react-zh.html">
+            
+                    
+                    react
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Framework/vue-zh.html">
+            
+                <a href="../Framework/vue-zh.html">
+            
+                    
+                    vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Git/git-zh.html">
+            
+                <a href="../Git/git-zh.html">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../JS/JS-ch.html">
+            
+                <a href="../JS/JS-ch.html">
+            
+                    
+                    JS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../MP/mp-ch.html">
+            
+                <a href="../MP/mp-ch.html">
+            
+                    
+                    微信小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Network/Network-zh.html">
+            
+                <a href="../Network/Network-zh.html">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Performance/performance-ch.html">
+            
+                <a href="../Performance/performance-ch.html">
+            
+                    
+                    性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.11" data-path="safety-cn.html">
+            
+                <a href="safety-cn.html">
+            
+                    
+                    安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../Career/How-to-use-your-time-correctly.html">
+            
+                <a href="../Career/How-to-use-your-time-correctly.html">
+            
+                    
+                    习惯与技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >安全</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <!-- START doctoc generated TOC please keep comment here to allow auto update --><!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE --><html><head></head><body><p><strong>Table of Contents</strong>  <em>generated with <a href="https://github.com/thlorenz/doctoc" target="_blank">DocToc</a></em></p>
+<ul>
+<li><a href="#xss">XSS</a><ul>
+<li><a href="#%E5%A6%82%E4%BD%95%E6%94%BB%E5%87%BB">&#x5982;&#x4F55;&#x653B;&#x51FB;</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E9%98%B2%E5%BE%A1">&#x5982;&#x4F55;&#x9632;&#x5FA1;</a></li>
+<li><a href="#csp">CSP</a></li>
+</ul>
+</li>
+<li><a href="#csrf">CSRF</a><ul>
+<li><a href="#%E5%A6%82%E4%BD%95%E6%94%BB%E5%87%BB-1">&#x5982;&#x4F55;&#x653B;&#x51FB;</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E9%98%B2%E5%BE%A1-1">&#x5982;&#x4F55;&#x9632;&#x5FA1;</a><ul>
+<li><a href="#samesite">SameSite</a></li>
+<li><a href="#%E9%AA%8C%E8%AF%81-referer">&#x9A8C;&#x8BC1; Referer</a></li>
+<li><a href="#token">Token</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8">&#x5BC6;&#x7801;&#x5B89;&#x5168;</a><ul>
+<li><a href="#%E5%8A%A0%E7%9B%90">&#x52A0;&#x76D0;</a></li>
+</ul>
+</li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<h2 id="xss">XSS</h2>
+<blockquote>
+<p><strong>&#x8DE8;&#x7F51;&#x7AD9;&#x6307;&#x4EE4;&#x7801;</strong>&#xFF08;&#x82F1;&#x8BED;&#xFF1A;Cross-site scripting&#xFF0C;&#x901A;&#x5E38;&#x7B80;&#x79F0;&#x4E3A;&#xFF1A;XSS&#xFF09;&#x662F;&#x4E00;&#x79CD;&#x7F51;&#x7AD9;&#x5E94;&#x7528;&#x7A0B;&#x5F0F;&#x7684;&#x5B89;&#x5168;&#x6F0F;&#x6D1E;&#x653B;&#x51FB;&#xFF0C;&#x662F;<a href="https://www.wikiwand.com/zh-hans/%E4%BB%A3%E7%A2%BC%E6%B3%A8%E5%85%A5" target="_blank">&#x4EE3;&#x7801;&#x6CE8;&#x5165;</a>&#x7684;&#x4E00;&#x79CD;&#x3002;&#x5B83;&#x5141;&#x8BB8;&#x6076;&#x610F;&#x4F7F;&#x7528;&#x8005;&#x5C06;&#x7A0B;&#x5F0F;&#x7801;&#x6CE8;&#x5165;&#x5230;&#x7F51;&#x9875;&#x4E0A;&#xFF0C;&#x5176;&#x4ED6;&#x4F7F;&#x7528;&#x8005;&#x5728;&#x89C2;&#x770B;&#x7F51;&#x9875;&#x65F6;&#x5C31;&#x4F1A;&#x53D7;&#x5230;&#x5F71;&#x54CD;&#x3002;&#x8FD9;&#x7C7B;&#x653B;&#x51FB;&#x901A;&#x5E38;&#x5305;&#x542B;&#x4E86; HTML &#x4EE5;&#x53CA;&#x4F7F;&#x7528;&#x8005;&#x7AEF;&#x811A;&#x672C;&#x8BED;&#x8A00;&#x3002;</p>
+</blockquote>
+<p>XSS &#x5206;&#x4E3A;&#x4E09;&#x79CD;&#xFF1A;&#x53CD;&#x5C04;&#x578B;&#xFF0C;&#x5B58;&#x50A8;&#x578B;&#x548C; DOM-based</p>
+<h3 id="&#x5982;&#x4F55;&#x653B;&#x51FB;">&#x5982;&#x4F55;&#x653B;&#x51FB;</h3>
+<p>XSS &#x901A;&#x8FC7;&#x4FEE;&#x6539; HTML &#x8282;&#x70B9;&#x6216;&#x8005;&#x6267;&#x884C; JS &#x4EE3;&#x7801;&#x6765;&#x653B;&#x51FB;&#x7F51;&#x7AD9;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#x901A;&#x8FC7; URL &#x83B7;&#x53D6;&#x67D0;&#x4E9B;&#x53C2;&#x6570;</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- http://www.domain.com?name=&lt;script&gt;alert(1)&lt;/script&gt; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>{{name}}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>&#x4E0A;&#x8FF0; URL &#x8F93;&#x5165;&#x53EF;&#x80FD;&#x4F1A;&#x5C06; HTML &#x6539;&#x4E3A; <code>&lt;div&gt;&lt;script&gt;alert(1)&lt;/script&gt;&lt;/div&gt;</code> &#xFF0C;&#x8FD9;&#x6837;&#x9875;&#x9762;&#x4E2D;&#x5C31;&#x51ED;&#x7A7A;&#x591A;&#x4E86;&#x4E00;&#x6BB5;&#x53EF;&#x6267;&#x884C;&#x811A;&#x672C;&#x3002;&#x8FD9;&#x79CD;&#x653B;&#x51FB;&#x7C7B;&#x578B;&#x662F;&#x53CD;&#x5C04;&#x578B;&#x653B;&#x51FB;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8BF4;&#x662F; DOM-based &#x653B;&#x51FB;&#x3002;</p>
+<p>&#x4E5F;&#x6709;&#x53E6;&#x4E00;&#x79CD;&#x573A;&#x666F;&#xFF0C;&#x6BD4;&#x5982;&#x5199;&#x4E86;&#x4E00;&#x7BC7;&#x5305;&#x542B;&#x653B;&#x51FB;&#x4EE3;&#x7801; <code>&lt;script&gt;alert(1)&lt;/script&gt;</code> &#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x90A3;&#x4E48;&#x53EF;&#x80FD;&#x6D4F;&#x89C8;&#x6587;&#x7AE0;&#x7684;&#x7528;&#x6237;&#x90FD;&#x4F1A;&#x88AB;&#x653B;&#x51FB;&#x5230;&#x3002;&#x8FD9;&#x79CD;&#x653B;&#x51FB;&#x7C7B;&#x578B;&#x662F;&#x5B58;&#x50A8;&#x578B;&#x653B;&#x51FB;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8BF4;&#x662F; DOM-based &#x653B;&#x51FB;&#xFF0C;&#x5E76;&#x4E14;&#x8FD9;&#x79CD;&#x653B;&#x51FB;&#x6253;&#x51FB;&#x9762;&#x66F4;&#x5E7F;&#x3002;</p>
+<h3 id="&#x5982;&#x4F55;&#x9632;&#x5FA1;">&#x5982;&#x4F55;&#x9632;&#x5FA1;</h3>
+<p>&#x6700;&#x666E;&#x904D;&#x7684;&#x505A;&#x6CD5;&#x662F;&#x8F6C;&#x4E49;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5BF9;&#x4E8E;&#x5F15;&#x53F7;&#xFF0C;&#x5C16;&#x62EC;&#x53F7;&#xFF0C;&#x659C;&#x6760;&#x8FDB;&#x884C;&#x8F6C;&#x4E49;</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">escape</span>(<span class="hljs-params">str</span>) </span>{
+    str = str.replace(<span class="hljs-regexp">/&amp;/g</span>, <span class="hljs-string">&quot;&amp;amp;&quot;</span>);
+    str = str.replace(<span class="hljs-regexp">/&lt;/g</span>, <span class="hljs-string">&quot;&amp;lt;&quot;</span>);
+    str = str.replace(<span class="hljs-regexp">/&gt;/g</span>, <span class="hljs-string">&quot;&amp;gt;&quot;</span>);
+    str = str.replace(<span class="hljs-regexp">/&quot;/g</span>, <span class="hljs-string">&quot;&amp;quto;&quot;</span>);
+    str = str.replace(<span class="hljs-regexp">/&apos;/g</span>, <span class="hljs-string">&quot;&amp;#39;&quot;</span>);
+    str = str.replace(<span class="hljs-regexp">/`/g</span>, <span class="hljs-string">&quot;&amp;#96;&quot;</span>);
+    str = str.replace(<span class="hljs-regexp">/\//g</span>, <span class="hljs-string">&quot;&amp;#x2F;&quot;</span>);
+    <span class="hljs-keyword">return</span> str
+}
+</code></pre>
+<p>&#x901A;&#x8FC7;&#x8F6C;&#x4E49;&#x53EF;&#x4EE5;&#x5C06;&#x653B;&#x51FB;&#x4EE3;&#x7801; <code>&lt;script&gt;alert(1)&lt;/script&gt;</code> &#x53D8;&#x6210;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// -&gt; &amp;lt;script&amp;gt;alert(1)&amp;lt;&amp;#x2F;script&amp;gt;</span>
+<span class="hljs-built_in">escape</span>(<span class="hljs-string">&apos;&lt;script&gt;alert(1)&lt;/script&gt;&apos;</span>)
+</code></pre>
+<p>&#x5BF9;&#x4E8E;&#x663E;&#x793A;&#x5BCC;&#x6587;&#x672C;&#x6765;&#x8BF4;&#xFF0C;&#x4E0D;&#x80FD;&#x901A;&#x8FC7;&#x4E0A;&#x9762;&#x7684;&#x529E;&#x6CD5;&#x6765;&#x8F6C;&#x4E49;&#x6240;&#x6709;&#x5B57;&#x7B26;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x6837;&#x4F1A;&#x628A;&#x9700;&#x8981;&#x7684;&#x683C;&#x5F0F;&#x4E5F;&#x8FC7;&#x6EE4;&#x6389;&#x3002;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x901A;&#x5E38;&#x91C7;&#x7528;&#x767D;&#x540D;&#x5355;&#x8FC7;&#x6EE4;&#x7684;&#x529E;&#x6CD5;&#xFF0C;&#x5F53;&#x7136;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x9ED1;&#x540D;&#x5355;&#x8FC7;&#x6EE4;&#xFF0C;&#x4F46;&#x662F;&#x8003;&#x8651;&#x5230;&#x9700;&#x8981;&#x8FC7;&#x6EE4;&#x7684;&#x6807;&#x7B7E;&#x548C;&#x6807;&#x7B7E;&#x5C5E;&#x6027;&#x5B9E;&#x5728;&#x592A;&#x591A;&#xFF0C;&#x66F4;&#x52A0;&#x63A8;&#x8350;&#x4F7F;&#x7528;&#x767D;&#x540D;&#x5355;&#x7684;&#x65B9;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> xss = <span class="hljs-built_in">require</span>(<span class="hljs-string">&quot;xss&quot;</span>);
+<span class="hljs-keyword">var</span> html = xss(<span class="hljs-string">&apos;&lt;h1 id=&quot;title&quot;&gt;XSS Demo&lt;/h1&gt;&lt;script&gt;alert(&quot;xss&quot;);&lt;/script&gt;&apos;</span>);
+<span class="hljs-comment">// -&gt; &lt;h1&gt;XSS Demo&lt;/h1&gt;&amp;lt;script&amp;gt;alert(&quot;xss&quot;);&amp;lt;/script&amp;gt;</span>
+<span class="hljs-built_in">console</span>.log(html);
+</code></pre>
+<p>&#x4EE5;&#x4E0A;&#x793A;&#x4F8B;&#x4F7F;&#x7528;&#x4E86; <code>js-xss</code> &#x6765;&#x5B9E;&#x73B0;&#x3002;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5728;&#x8F93;&#x51FA;&#x4E2D;&#x4FDD;&#x7559;&#x4E86; <code>h1</code> &#x6807;&#x7B7E;&#x4E14;&#x8FC7;&#x6EE4;&#x4E86; <code>script</code> &#x6807;&#x7B7E;</p>
+<h3 id="csp">CSP</h3>
+<blockquote>
+<p>&#x5185;&#x5BB9;&#x5B89;&#x5168;&#x7B56;&#x7565;   (<a href="https://developer.mozilla.org/en-US/docs/Glossary/CSP" target="_blank">CSP</a>) &#x662F;&#x4E00;&#x4E2A;&#x989D;&#x5916;&#x7684;&#x5B89;&#x5168;&#x5C42;&#xFF0C;&#x7528;&#x4E8E;&#x68C0;&#x6D4B;&#x5E76;&#x524A;&#x5F31;&#x67D0;&#x4E9B;&#x7279;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x653B;&#x51FB;&#xFF0C;&#x5305;&#x62EC;&#x8DE8;&#x7AD9;&#x811A;&#x672C; (<a href="https://developer.mozilla.org/en-US/docs/Glossary/XSS" target="_blank">XSS</a>) &#x548C;&#x6570;&#x636E;&#x6CE8;&#x5165;&#x653B;&#x51FB;&#x7B49;&#x3002;&#x65E0;&#x8BBA;&#x662F;&#x6570;&#x636E;&#x76D7;&#x53D6;&#x3001;&#x7F51;&#x7AD9;&#x5185;&#x5BB9;&#x6C61;&#x67D3;&#x8FD8;&#x662F;&#x6563;&#x53D1;&#x6076;&#x610F;&#x8F6F;&#x4EF6;&#xFF0C;&#x8FD9;&#x4E9B;&#x653B;&#x51FB;&#x90FD;&#x662F;&#x4E3B;&#x8981;&#x7684;&#x624B;&#x6BB5;&#x3002;</p>
+</blockquote>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; CSP &#x6765;&#x5C3D;&#x91CF;&#x51CF;&#x5C11; XSS &#x653B;&#x51FB;&#x3002;CSP &#x672C;&#x8D28;&#x4E0A;&#x4E5F;&#x662F;&#x5EFA;&#x7ACB;&#x767D;&#x540D;&#x5355;&#xFF0C;&#x89C4;&#x5B9A;&#x4E86;&#x6D4F;&#x89C8;&#x5668;&#x53EA;&#x80FD;&#x591F;&#x6267;&#x884C;&#x7279;&#x5B9A;&#x6765;&#x6E90;&#x7684;&#x4EE3;&#x7801;&#x3002;</p>
+<p>&#x901A;&#x5E38;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; HTTP Header &#x4E2D;&#x7684; <code>Content-Security-Policy</code> &#x6765;&#x5F00;&#x542F; CSP</p>
+<ul>
+<li><p>&#x53EA;&#x5141;&#x8BB8;&#x52A0;&#x8F7D;&#x672C;&#x7AD9;&#x8D44;&#x6E90;</p>
+<pre><code class="lang-http"><span class="hljs-attribute">Content-Security-Policy</span>: default-src &#x2018;self&#x2019;
+</code></pre>
+</li>
+<li><p>&#x53EA;&#x5141;&#x8BB8;&#x52A0;&#x8F7D; HTTPS &#x534F;&#x8BAE;&#x56FE;&#x7247;</p>
+<pre><code class="lang-http"><span class="hljs-attribute">Content-Security-Policy</span>: img-src https://*
+</code></pre>
+</li>
+<li><p>&#x5141;&#x8BB8;&#x52A0;&#x8F7D;&#x4EFB;&#x4F55;&#x6765;&#x6E90;&#x6846;&#x67B6;</p>
+<pre><code class="lang-http"><span class="hljs-attribute">Content-Security-Policy</span>: child-src &apos;none&apos;
+</code></pre>
+</li>
+</ul>
+<p>&#x66F4;&#x591A;&#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x67E5;&#x770B; <a href="https://content-security-policy.com/" target="_blank">&#x8FD9;&#x91CC;</a></p>
+<h2 id="csrf">CSRF</h2>
+<blockquote>
+<p><strong>&#x8DE8;&#x7AD9;&#x8BF7;&#x6C42;&#x4F2A;&#x9020;</strong>&#xFF08;&#x82F1;&#x8BED;&#xFF1A;Cross-site request forgery&#xFF09;&#xFF0C;&#x4E5F;&#x88AB;&#x79F0;&#x4E3A; <strong>one-click attack</strong> &#x6216;&#x8005; <strong>session riding</strong>&#xFF0C;&#x901A;&#x5E38;&#x7F29;&#x5199;&#x4E3A; <strong>CSRF</strong> &#x6216;&#x8005; <strong>XSRF</strong>&#xFF0C; &#x662F;&#x4E00;&#x79CD;&#x631F;&#x5236;&#x7528;&#x6237;&#x5728;&#x5F53;&#x524D;&#x5DF2;&#x767B;&#x5F55;&#x7684;Web&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E0A;&#x6267;&#x884C;&#x975E;&#x672C;&#x610F;&#x7684;&#x64CD;&#x4F5C;&#x7684;&#x653B;&#x51FB;&#x65B9;&#x6CD5;&#x3002;<a href="https://www.wikiwand.com/zh/%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0#citenoteRistic1" target="_blank">[1]</a> &#x8DDF;<a href="https://www.wikiwand.com/zh/%E8%B7%A8%E7%B6%B2%E7%AB%99%E6%8C%87%E4%BB%A4%E7%A2%BC" target="_blank">&#x8DE8;&#x7DB2;&#x7AD9;&#x6307;&#x4EE4;&#x78BC;</a>&#xFF08;XSS&#xFF09;&#x76F8;&#x6BD4;&#xFF0C;<strong>XSS</strong> &#x5229;&#x7528;&#x7684;&#x662F;&#x7528;&#x6237;&#x5BF9;&#x6307;&#x5B9A;&#x7F51;&#x7AD9;&#x7684;&#x4FE1;&#x4EFB;&#xFF0C;CSRF &#x5229;&#x7528;&#x7684;&#x662F;&#x7F51;&#x7AD9;&#x5BF9;&#x7528;&#x6237;&#x7F51;&#x9875;&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x4FE1;&#x4EFB;&#x3002;</p>
+</blockquote>
+<p>&#x7B80;&#x5355;&#x70B9;&#x8BF4;&#xFF0C;CSRF &#x5C31;&#x662F;&#x5229;&#x7528;&#x7528;&#x6237;&#x7684;&#x767B;&#x5F55;&#x6001;&#x53D1;&#x8D77;&#x6076;&#x610F;&#x8BF7;&#x6C42;&#x3002;</p>
+<h3 id="&#x5982;&#x4F55;&#x653B;&#x51FB;">&#x5982;&#x4F55;&#x653B;&#x51FB;</h3>
+<p>&#x5047;&#x8BBE;&#x7F51;&#x7AD9;&#x4E2D;&#x6709;&#x4E00;&#x4E2A;&#x901A;&#x8FC7; Get &#x8BF7;&#x6C42;&#x63D0;&#x4EA4;&#x7528;&#x6237;&#x8BC4;&#x8BBA;&#x7684;&#x63A5;&#x53E3;&#xFF0C;&#x90A3;&#x4E48;&#x653B;&#x51FB;&#x8005;&#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x9493;&#x9C7C;&#x7F51;&#x7AD9;&#x4E2D;&#x52A0;&#x5165;&#x4E00;&#x4E2A;&#x56FE;&#x7247;&#xFF0C;&#x56FE;&#x7247;&#x7684;&#x5730;&#x5740;&#x5C31;&#x662F;&#x8BC4;&#x8BBA;&#x63A5;&#x53E3;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;http://www.domain.com/xxx?comment=&apos;attack&apos;&quot;</span>/&gt;</span>
+</code></pre>
+<p> &#x5982;&#x679C;&#x63A5;&#x53E3;&#x662F; Post &#x63D0;&#x4EA4;&#x7684;&#xFF0C;&#x5C31;&#x76F8;&#x5BF9;&#x9EBB;&#x70E6;&#x70B9;&#xFF0C;&#x9700;&#x8981;&#x7528;&#x8868;&#x5355;&#x6765;&#x63D0;&#x4EA4;&#x63A5;&#x53E3;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;http://www.domain.com/xxx&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;CSRF&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;comment&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;attack&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;hidden&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<h3 id="&#x5982;&#x4F55;&#x9632;&#x5FA1;">&#x5982;&#x4F55;&#x9632;&#x5FA1;</h3>
+<p>&#x9632;&#x8303; CSRF &#x53EF;&#x4EE5;&#x9075;&#x5FAA;&#x4EE5;&#x4E0B;&#x51E0;&#x79CD;&#x89C4;&#x5219;&#xFF1A;</p>
+<ol>
+<li>Get &#x8BF7;&#x6C42;&#x4E0D;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x4FEE;&#x6539;</li>
+<li>&#x4E0D;&#x8BA9;&#x7B2C;&#x4E09;&#x65B9;&#x7F51;&#x7AD9;&#x8BBF;&#x95EE;&#x5230;&#x7528;&#x6237; Cookie</li>
+<li>&#x963B;&#x6B62;&#x7B2C;&#x4E09;&#x65B9;&#x7F51;&#x7AD9;&#x8BF7;&#x6C42;&#x63A5;&#x53E3;</li>
+<li>&#x8BF7;&#x6C42;&#x65F6;&#x9644;&#x5E26;&#x9A8C;&#x8BC1;&#x4FE1;&#x606F;&#xFF0C;&#x6BD4;&#x5982;&#x9A8C;&#x8BC1;&#x7801;&#x6216;&#x8005; token</li>
+</ol>
+<h4 id="samesite">SameSite</h4>
+<p>&#x53EF;&#x4EE5;&#x5BF9; Cookie &#x8BBE;&#x7F6E; <code>SameSite</code> &#x5C5E;&#x6027;&#x3002;&#x8BE5;&#x5C5E;&#x6027;&#x8BBE;&#x7F6E; Cookie &#x4E0D;&#x968F;&#x7740;&#x8DE8;&#x57DF;&#x8BF7;&#x6C42;&#x53D1;&#x9001;&#xFF0C;&#x8BE5;&#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x5F88;&#x5927;&#x7A0B;&#x5EA6;&#x51CF;&#x5C11; CSRF &#x7684;&#x653B;&#x51FB;&#xFF0C;&#x4F46;&#x662F;&#x8BE5;&#x5C5E;&#x6027;&#x76EE;&#x524D;&#x5E76;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x6D4F;&#x89C8;&#x5668;&#x90FD;&#x517C;&#x5BB9;&#x3002;</p>
+<h4 id="&#x9A8C;&#x8BC1;-referer">&#x9A8C;&#x8BC1; Referer</h4>
+<p>&#x5BF9;&#x4E8E;&#x9700;&#x8981;&#x9632;&#x8303; CSRF &#x7684;&#x8BF7;&#x6C42;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x9A8C;&#x8BC1; Referer &#x6765;&#x5224;&#x65AD;&#x8BE5;&#x8BF7;&#x6C42;&#x662F;&#x5426;&#x4E3A;&#x7B2C;&#x4E09;&#x65B9;&#x7F51;&#x7AD9;&#x53D1;&#x8D77;&#x7684;&#x3002;</p>
+<h4 id="token">Token</h4>
+<p>&#x670D;&#x52A1;&#x5668;&#x4E0B;&#x53D1;&#x4E00;&#x4E2A;&#x968F;&#x673A; Token&#xFF08;&#x7B97;&#x6CD5;&#x4E0D;&#x80FD;&#x590D;&#x6742;&#xFF09;&#xFF0C;&#x6BCF;&#x6B21;&#x53D1;&#x8D77;&#x8BF7;&#x6C42;&#x65F6;&#x5C06; Token &#x643A;&#x5E26;&#x4E0A;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x9A8C;&#x8BC1; Token &#x662F;&#x5426;&#x6709;&#x6548;&#x3002;</p>
+<h2 id="&#x5BC6;&#x7801;&#x5B89;&#x5168;">&#x5BC6;&#x7801;&#x5B89;&#x5168;</h2>
+<p>&#x5BC6;&#x7801;&#x5B89;&#x5168;&#x867D;&#x7136;&#x5927;&#x591A;&#x662F;&#x540E;&#x7AEF;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;&#x4F46;&#x662F;&#x4F5C;&#x4E3A;&#x4E00;&#x540D;&#x4F18;&#x79C0;&#x7684;&#x524D;&#x7AEF;&#x7A0B;&#x5E8F;&#x5458;&#x4E5F;&#x9700;&#x8981;&#x719F;&#x6089;&#x8FD9;&#x65B9;&#x9762;&#x7684;&#x77E5;&#x8BC6;&#x3002;</p>
+<h3 id="&#x52A0;&#x76D0;">&#x52A0;&#x76D0;</h3>
+<p>&#x5BF9;&#x4E8E;&#x5BC6;&#x7801;&#x5B58;&#x50A8;&#x6765;&#x8BF4;&#xFF0C;&#x5FC5;&#x7136;&#x662F;&#x4E0D;&#x80FD;&#x660E;&#x6587;&#x5B58;&#x50A8;&#x5728;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x7684;&#xFF0C;&#x5426;&#x5219;&#x4E00;&#x65E6;&#x6570;&#x636E;&#x5E93;&#x6CC4;&#x9732;&#xFF0C;&#x4F1A;&#x5BF9;&#x7528;&#x6237;&#x9020;&#x6210;&#x5F88;&#x5927;&#x7684;&#x635F;&#x5931;&#x3002;&#x5E76;&#x4E14;&#x4E0D;&#x5EFA;&#x8BAE;&#x53EA;&#x5BF9;&#x5BC6;&#x7801;&#x5355;&#x7EAF;&#x901A;&#x8FC7;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x52A0;&#x5BC6;&#xFF0C;&#x56E0;&#x4E3A;&#x5B58;&#x5728;&#x5F69;&#x8679;&#x8868;&#x7684;&#x5173;&#x7CFB;&#x3002;</p>
+<p>&#x901A;&#x5E38;&#x9700;&#x8981;&#x5BF9;&#x5BC6;&#x7801;&#x52A0;&#x76D0;&#xFF0C;&#x7136;&#x540E;&#x8FDB;&#x884C;&#x51E0;&#x6B21;&#x4E0D;&#x540C;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x7684;&#x52A0;&#x5BC6;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// &#x52A0;&#x76D0;&#x4E5F;&#x5C31;&#x662F;&#x7ED9;&#x539F;&#x5BC6;&#x7801;&#x6DFB;&#x52A0;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x589E;&#x52A0;&#x539F;&#x5BC6;&#x7801;&#x957F;&#x5EA6;</span>
+sha256(sha1(md5(salt + password + salt)))
+</code></pre>
+<p>&#x4F46;&#x662F;&#x52A0;&#x76D0;&#x5E76;&#x4E0D;&#x80FD;&#x963B;&#x6B62;&#x522B;&#x4EBA;&#x76D7;&#x53D6;&#x8D26;&#x53F7;&#xFF0C;&#x53EA;&#x80FD;&#x786E;&#x4FDD;&#x5373;&#x4F7F;&#x6570;&#x636E;&#x5E93;&#x6CC4;&#x9732;&#xFF0C;&#x4E5F;&#x4E0D;&#x4F1A;&#x66B4;&#x9732;&#x7528;&#x6237;&#x7684;&#x771F;&#x5B9E;&#x5BC6;&#x7801;&#x3002;&#x4E00;&#x65E6;&#x653B;&#x51FB;&#x8005;&#x5F97;&#x5230;&#x4E86;&#x7528;&#x6237;&#x7684;&#x8D26;&#x53F7;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x66B4;&#x529B;&#x7834;&#x89E3;&#x7684;&#x65B9;&#x5F0F;&#x7834;&#x89E3;&#x5BC6;&#x7801;&#x3002;&#x5BF9;&#x4E8E;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#xFF0C;&#x901A;&#x5E38;&#x4F7F;&#x7528;&#x9A8C;&#x8BC1;&#x7801;&#x589E;&#x52A0;&#x5EF6;&#x65F6;&#x6216;&#x8005;&#x9650;&#x5236;&#x5C1D;&#x8BD5;&#x6B21;&#x6570;&#x7684;&#x65B9;&#x5F0F;&#x3002;&#x5E76;&#x4E14;&#x4E00;&#x65E6;&#x7528;&#x6237;&#x8F93;&#x5165;&#x4E86;&#x9519;&#x8BEF;&#x7684;&#x5BC6;&#x7801;&#xFF0C;&#x4E5F;&#x4E0D;&#x80FD;&#x76F4;&#x63A5;&#x63D0;&#x793A;&#x7528;&#x6237;&#x8F93;&#x9519;&#x5BC6;&#x7801;&#xFF0C;&#x800C;&#x5E94;&#x8BE5;&#x63D0;&#x793A;&#x8D26;&#x53F7;&#x6216;&#x5BC6;&#x7801;&#x9519;&#x8BEF;&#x3002;</p>
+<footer class="page-footer"><span class="copyright">&#xA9; Tony all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-8-16 13:26:02
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Performance/performance-ch.html" class="navigation navigation-prev " aria-label="Previous page: 性能">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Career/How-to-use-your-time-correctly.html" class="navigation navigation-next " aria-label="Next page: 习惯与技巧">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"安全","level":"1.11","depth":1,"next":{"title":"习惯与技巧","level":"1.12","depth":1,"path":"docs/Career/How-to-use-your-time-correctly.md","ref":"docs/Career/How-to-use-your-time-correctly.md","articles":[]},"previous":{"title":"性能","level":"1.10","depth":1,"path":"docs/Performance/performance-ch.md","ref":"docs/Performance/performance-ch.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","chapter-fold","code","favicon","tbfed-pagefooter","-sharing","sharing-plus","github","github-buttons","lightbox"],"styles":{"website":"/source/css/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy Tony","modify_label":"该文件修订时间：","modify_format":"2019-8-16 13:26:02"},"chapter-fold":{},"github":{"url":"https://github.com/Tony-Code"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"/source/images/favicon.ico","bookmark":"/source/images/favicon.ico","appleTouch":"/source/images/favicon.ico","appleTouchMore":{"120x120":"/source/images/favicon.ico","180x180":"/source/images/favicon.ico"}},"lightbox":{"jquery":true},"github-buttons":{"buttons":[{"user":"Tony-Code","repo":"javascript","type":"star","size":"small","count":true}]},"sharing":{"qq":false,"all":["weibo","qq","qzone","douban"],"douban":false,"facebook":true,"weibo":false,"twitter":true,"pocket":false,"google":true,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"tony","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"JavaScript中文文档","language":"zh-hans","gitbook":"3.2.3","description":"JavaScript文档"},"file":{"path":"docs/Safety/safety-cn.md","mtime":"2019-07-27T02:42:40.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-16T10:20:53.249Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/jquery.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

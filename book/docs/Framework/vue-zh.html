@@ -1,0 +1,1530 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>vue · JavaScript中文文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="tony">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-lightbox/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../source/css/website.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Git/git-zh.html" />
+    
+    
+    <link rel="prev" href="react-zh.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"Tony-Code","repo":"javascript","type":"star","size":"small","count":true}]};
+    </script>
+
+    
+        <link rel="shortcut icon" href='../../source/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../source/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../source/images/favicon.ico'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../source/images/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../source/images/favicon.ico">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Algorithm/algorithm-ch.html">
+            
+                <a href="../Algorithm/algorithm-ch.html">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Browser/browser-ch.html">
+            
+                <a href="../Browser/browser-ch.html">
+            
+                    
+                    浏览器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../DataStruct/dataStruct-zh.html">
+            
+                <a href="../DataStruct/dataStruct-zh.html">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="framework-zh.html">
+            
+                <a href="framework-zh.html">
+            
+                    
+                    框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="react-zh.html">
+            
+                <a href="react-zh.html">
+            
+                    
+                    react
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.2" data-path="vue-zh.html">
+            
+                <a href="vue-zh.html">
+            
+                    
+                    vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Git/git-zh.html">
+            
+                <a href="../Git/git-zh.html">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../JS/JS-ch.html">
+            
+                <a href="../JS/JS-ch.html">
+            
+                    
+                    JS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../MP/mp-ch.html">
+            
+                <a href="../MP/mp-ch.html">
+            
+                    
+                    微信小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Network/Network-zh.html">
+            
+                <a href="../Network/Network-zh.html">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Performance/performance-ch.html">
+            
+                <a href="../Performance/performance-ch.html">
+            
+                    
+                    性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../Safety/safety-cn.html">
+            
+                <a href="../Safety/safety-cn.html">
+            
+                    
+                    安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../Career/How-to-use-your-time-correctly.html">
+            
+                <a href="../Career/How-to-use-your-time-correctly.html">
+            
+                    
+                    习惯与技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >vue</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <!-- START doctoc generated TOC please keep comment here to allow auto update --><!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE --><html><head></head><body><p><strong>Table of Contents</strong>  <em>generated with <a href="https://github.com/thlorenz/doctoc" target="_blank">DocToc</a></em></p>
+<ul>
+<li><a href="#nexttick-%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90">NextTick &#x539F;&#x7406;&#x5206;&#x6790;</a></li>
+<li><a href="#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%88%86%E6%9E%90">&#x751F;&#x547D;&#x5468;&#x671F;&#x5206;&#x6790;</a></li>
+<li><a href="#vuerouter-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90">VueRouter &#x6E90;&#x7801;&#x89E3;&#x6790;</a><ul>
+<li><a href="#%E9%87%8D%E8%A6%81%E5%87%BD%E6%95%B0%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE">&#x91CD;&#x8981;&#x51FD;&#x6570;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;</a></li>
+<li><a href="#%E8%B7%AF%E7%94%B1%E6%B3%A8%E5%86%8C">&#x8DEF;&#x7531;&#x6CE8;&#x518C;</a></li>
+<li><a href="#vuerouter-%E5%AE%9E%E4%BE%8B%E5%8C%96">VueRouter &#x5B9E;&#x4F8B;&#x5316;</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA%E8%B7%AF%E7%94%B1%E5%8C%B9%E9%85%8D%E5%AF%B9%E8%B1%A1">&#x521B;&#x5EFA;&#x8DEF;&#x7531;&#x5339;&#x914D;&#x5BF9;&#x8C61;</a></li>
+<li><a href="#%E8%B7%AF%E7%94%B1%E5%88%9D%E5%A7%8B%E5%8C%96">&#x8DEF;&#x7531;&#x521D;&#x59CB;&#x5316;</a></li>
+<li><a href="#%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC">&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;</a></li>
+</ul>
+</li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<h1 id="nexttick-&#x539F;&#x7406;&#x5206;&#x6790;">NextTick &#x539F;&#x7406;&#x5206;&#x6790;</h1>
+<p><code>nextTick</code> &#x53EF;&#x4EE5;&#x8BA9;&#x6211;&#x4EEC;&#x5728;&#x4E0B;&#x6B21; DOM &#x66F4;&#x65B0;&#x5FAA;&#x73AF;&#x7ED3;&#x675F;&#x4E4B;&#x540E;&#x6267;&#x884C;&#x5EF6;&#x8FDF;&#x56DE;&#x8C03;&#xFF0C;&#x7528;&#x4E8E;&#x83B7;&#x5F97;&#x66F4;&#x65B0;&#x540E;&#x7684; DOM&#x3002;</p>
+<p>&#x5728; Vue 2.4 &#x4E4B;&#x524D;&#x90FD;&#x662F;&#x4F7F;&#x7528;&#x7684; microtasks&#xFF0C;&#x4F46;&#x662F; microtasks &#x7684;&#x4F18;&#x5148;&#x7EA7;&#x8FC7;&#x9AD8;&#xFF0C;&#x5728;&#x67D0;&#x4E9B;&#x60C5;&#x51B5;&#x4E0B;&#x53EF;&#x80FD;&#x4F1A;&#x51FA;&#x73B0;&#x6BD4;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#x66F4;&#x5FEB;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x4F46;&#x5982;&#x679C;&#x90FD;&#x4F7F;&#x7528; macrotasks &#x53C8;&#x53EF;&#x80FD;&#x4F1A;&#x51FA;&#x73B0;&#x6E32;&#x67D3;&#x7684;&#x6027;&#x80FD;&#x95EE;&#x9898;&#x3002;&#x6240;&#x4EE5;&#x5728;&#x65B0;&#x7248;&#x672C;&#x4E2D;&#xFF0C;&#x4F1A;&#x9ED8;&#x8BA4;&#x4F7F;&#x7528; microtasks&#xFF0C;&#x4F46;&#x5728;&#x7279;&#x6B8A;&#x60C5;&#x51B5;&#x4E0B;&#x4F1A;&#x4F7F;&#x7528; macrotasks&#xFF0C;&#x6BD4;&#x5982; v-on&#x3002;</p>
+<p>&#x5BF9;&#x4E8E;&#x5B9E;&#x73B0; macrotasks &#xFF0C;&#x4F1A;&#x5148;&#x5224;&#x65AD;&#x662F;&#x5426;&#x80FD;&#x4F7F;&#x7528; <code>setImmediate</code> &#xFF0C;&#x4E0D;&#x80FD;&#x7684;&#x8BDD;&#x964D;&#x7EA7;&#x4E3A; <code>MessageChannel</code> &#xFF0C;&#x4EE5;&#x4E0A;&#x90FD;&#x4E0D;&#x884C;&#x7684;&#x8BDD;&#x5C31;&#x4F7F;&#x7528; <code>setTimeout</code> </p>
+<pre><code class="lang-js"><span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> setImmediate !== <span class="hljs-string">&apos;undefined&apos;</span> &amp;&amp; isNative(setImmediate)) {
+  macroTimerFunc = () =&gt; {
+    setImmediate(flushCallbacks)
+  }
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (
+  <span class="hljs-keyword">typeof</span> MessageChannel !== <span class="hljs-string">&apos;undefined&apos;</span> &amp;&amp;
+  (isNative(MessageChannel) ||
+    <span class="hljs-comment">// PhantomJS</span>
+    MessageChannel.toString() === <span class="hljs-string">&apos;[object MessageChannelConstructor]&apos;</span>)
+) {
+  <span class="hljs-keyword">const</span> channel = <span class="hljs-keyword">new</span> MessageChannel()
+  <span class="hljs-keyword">const</span> port = channel.port2
+  channel.port1.onmessage = flushCallbacks
+  macroTimerFunc = () =&gt; {
+    port.postMessage(<span class="hljs-number">1</span>)
+  }
+} <span class="hljs-keyword">else</span> {
+  <span class="hljs-comment">/* istanbul ignore next */</span>
+  macroTimerFunc = () =&gt; {
+    setTimeout(flushCallbacks, <span class="hljs-number">0</span>)
+  }
+}
+</code></pre>
+<p><code>nextTick</code> &#x540C;&#x65F6;&#x4E5F;&#x652F;&#x6301; Promise &#x7684;&#x4F7F;&#x7528;&#xFF0C;&#x4F1A;&#x5224;&#x65AD;&#x662F;&#x5426;&#x5B9E;&#x73B0;&#x4E86; Promise </p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">nextTick</span>(<span class="hljs-params">cb?: Function, ctx?: Object</span>) </span>{
+  <span class="hljs-keyword">let</span> _resolve
+  <span class="hljs-comment">// &#x5C06;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x6574;&#x5408;&#x8FDB;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;</span>
+  callbacks.push(() =&gt; {
+    <span class="hljs-keyword">if</span> (cb) {
+      <span class="hljs-keyword">try</span> {
+        cb.call(ctx)
+      } <span class="hljs-keyword">catch</span> (e) {
+        handleError(e, ctx, <span class="hljs-string">&apos;nextTick&apos;</span>)
+      }
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (_resolve) {
+      _resolve(ctx)
+    }
+  })
+  <span class="hljs-keyword">if</span> (!pending) {
+    pending = <span class="hljs-literal">true</span>
+    <span class="hljs-keyword">if</span> (useMacroTask) {
+      macroTimerFunc()
+    } <span class="hljs-keyword">else</span> {
+      microTimerFunc()
+    }
+  }
+  <span class="hljs-comment">// &#x5224;&#x65AD;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; Promise </span>
+  <span class="hljs-comment">// &#x53EF;&#x4EE5;&#x7684;&#x8BDD;&#x7ED9; _resolve &#x8D4B;&#x503C;</span>
+  <span class="hljs-comment">// &#x8FD9;&#x6837;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x5C31;&#x80FD;&#x4EE5; promise &#x7684;&#x65B9;&#x5F0F;&#x8C03;&#x7528;</span>
+  <span class="hljs-keyword">if</span> (!cb &amp;&amp; <span class="hljs-keyword">typeof</span> <span class="hljs-built_in">Promise</span> !== <span class="hljs-string">&apos;undefined&apos;</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(resolve =&gt; {
+      _resolve = resolve
+    })
+  }
+}
+</code></pre>
+<h1 id="&#x751F;&#x547D;&#x5468;&#x671F;&#x5206;&#x6790;">&#x751F;&#x547D;&#x5468;&#x671F;&#x5206;&#x6790;</h1>
+<p>&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;&#x5C31;&#x662F;&#x7EC4;&#x4EF6;&#x5728;&#x521D;&#x59CB;&#x5316;&#x6216;&#x8005;&#x6570;&#x636E;&#x66F4;&#x65B0;&#x65F6;&#x4F1A;&#x89E6;&#x53D1;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x3002;</p>
+<p><a href="https://yck-1254263422.cos.ap-shanghai.myqcloud.com/blog/2019-06-01-042515.png" data-lightbox="1eb1c2f8-933f-466d-a6cf-54399e7d01f8" data-title="" target="_blank"><img src="https://yck-1254263422.cos.ap-shanghai.myqcloud.com/blog/2019-06-01-042515.png" alt=""></a></p>
+<p>&#x5728;&#x521D;&#x59CB;&#x5316;&#x65F6;&#xFF0C;&#x4F1A;&#x8C03;&#x7528;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#xFF0C;&#x751F;&#x547D;&#x5468;&#x671F;&#x5C31;&#x662F;&#x901A;&#x8FC7; <code>callHook</code> &#x8C03;&#x7528;&#x7684;</p>
+<pre><code class="lang-js">Vue.prototype._init = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">options</span>) </span>{
+    initLifecycle(vm)
+    initEvents(vm)
+    initRender(vm)
+    callHook(vm, <span class="hljs-string">&apos;beforeCreate&apos;</span>) <span class="hljs-comment">// &#x62FF;&#x4E0D;&#x5230; props data</span>
+    initInjections(vm) 
+    initState(vm)
+    initProvide(vm)
+    callHook(vm, <span class="hljs-string">&apos;created&apos;</span>)
+}
+</code></pre>
+<p>&#x53EF;&#x4EE5;&#x53D1;&#x73B0;&#x5728;&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;<code>beforeCreate</code> &#x8C03;&#x7528;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x662F;&#x83B7;&#x53D6;&#x4E0D;&#x5230; props &#x6216;&#x8005; data &#x4E2D;&#x7684;&#x6570;&#x636E;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E9B;&#x6570;&#x636E;&#x7684;&#x521D;&#x59CB;&#x5316;&#x90FD;&#x5728; <code>initState</code> &#x4E2D;&#x3002;</p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x4F1A;&#x6267;&#x884C;&#x6302;&#x8F7D;&#x51FD;&#x6570;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">mountComponent</span> </span>{
+    callHook(vm, <span class="hljs-string">&apos;beforeMount&apos;</span>)
+    <span class="hljs-comment">// ...</span>
+    <span class="hljs-keyword">if</span> (vm.$vnode == <span class="hljs-literal">null</span>) {
+        vm._isMounted = <span class="hljs-literal">true</span>
+        callHook(vm, <span class="hljs-string">&apos;mounted&apos;</span>)
+    }
+}
+</code></pre>
+<p><code>beforeMount</code> &#x5C31;&#x662F;&#x5728;&#x6302;&#x8F7D;&#x524D;&#x6267;&#x884C;&#x7684;&#xFF0C;&#x7136;&#x540E;&#x5F00;&#x59CB;&#x521B;&#x5EFA; VDOM &#x5E76;&#x66FF;&#x6362;&#x6210;&#x771F;&#x5B9E; DOM&#xFF0C;&#x6700;&#x540E;&#x6267;&#x884C; <code>mounted</code> &#x94A9;&#x5B50;&#x3002;&#x8FD9;&#x91CC;&#x4F1A;&#x6709;&#x4E2A;&#x5224;&#x65AD;&#x903B;&#x8F91;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x5916;&#x90E8; <code>new Vue({})</code> &#x7684;&#x8BDD;&#xFF0C;&#x4E0D;&#x4F1A;&#x5B58;&#x5728; <code>$vnode</code> &#xFF0C;&#x6240;&#x4EE5;&#x76F4;&#x63A5;&#x6267;&#x884C; <code>mounted</code> &#x94A9;&#x5B50;&#x4E86;&#x3002;&#x5982;&#x679C;&#x6709;&#x5B50;&#x7EC4;&#x4EF6;&#x7684;&#x8BDD;&#xFF0C;&#x4F1A;&#x9012;&#x5F52;&#x6302;&#x8F7D;&#x5B50;&#x7EC4;&#x4EF6;&#xFF0C;&#x53EA;&#x6709;&#x5F53;&#x6240;&#x6709;&#x5B50;&#x7EC4;&#x4EF6;&#x5168;&#x90E8;&#x6302;&#x8F7D;&#x5B8C;&#x6BD5;&#xFF0C;&#x624D;&#x4F1A;&#x6267;&#x884C;&#x6839;&#x7EC4;&#x4EF6;&#x7684;&#x6302;&#x8F7D;&#x94A9;&#x5B50;&#x3002;</p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x662F;&#x6570;&#x636E;&#x66F4;&#x65B0;&#x65F6;&#x4F1A;&#x8C03;&#x7528;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">flushSchedulerQueue</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-comment">// ...</span>
+  <span class="hljs-keyword">for</span> (index = <span class="hljs-number">0</span>; index &lt; queue.length; index++) {
+    watcher = queue[index]
+    <span class="hljs-keyword">if</span> (watcher.before) {
+      watcher.before() <span class="hljs-comment">// &#x8C03;&#x7528; beforeUpdate</span>
+    }
+    id = watcher.id
+    has[id] = <span class="hljs-literal">null</span>
+    watcher.run()
+    <span class="hljs-comment">// in dev build, check and stop circular updates.</span>
+    <span class="hljs-keyword">if</span> (process.env.NODE_ENV !== <span class="hljs-string">&apos;production&apos;</span> &amp;&amp; has[id] != <span class="hljs-literal">null</span>) {
+      circular[id] = (circular[id] || <span class="hljs-number">0</span>) + <span class="hljs-number">1</span>
+      <span class="hljs-keyword">if</span> (circular[id] &gt; MAX_UPDATE_COUNT) {
+        warn(
+          <span class="hljs-string">&apos;You may have an infinite update loop &apos;</span> +
+            (watcher.user
+              ? <span class="hljs-string">`in watcher with expression &quot;<span class="hljs-subst">${watcher.expression}</span>&quot;`</span>
+              : <span class="hljs-string">`in a component render function.`</span>),
+          watcher.vm
+        )
+        <span class="hljs-keyword">break</span>
+      }
+    }
+  }
+  callUpdatedHooks(updatedQueue)
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">callUpdatedHooks</span>(<span class="hljs-params">queue</span>) </span>{
+  <span class="hljs-keyword">let</span> i = queue.length
+  <span class="hljs-keyword">while</span> (i--) {
+    <span class="hljs-keyword">const</span> watcher = queue[i]
+    <span class="hljs-keyword">const</span> vm = watcher.vm
+    <span class="hljs-keyword">if</span> (vm._watcher === watcher &amp;&amp; vm._isMounted) {
+      callHook(vm, <span class="hljs-string">&apos;updated&apos;</span>)
+    }
+  }
+}
+</code></pre>
+<p>&#x4E0A;&#x56FE;&#x8FD8;&#x6709;&#x4E24;&#x4E2A;&#x751F;&#x547D;&#x5468;&#x671F;&#x6CA1;&#x6709;&#x8BF4;&#xFF0C;&#x5206;&#x522B;&#x4E3A; <code>activated</code> &#x548C; <code>deactivated</code> &#xFF0C;&#x8FD9;&#x4E24;&#x4E2A;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x662F; <code>keep-alive</code> &#x7EC4;&#x4EF6;&#x72EC;&#x6709;&#x7684;&#x3002;&#x7528; <code>keep-alive</code> &#x5305;&#x88F9;&#x7684;&#x7EC4;&#x4EF6;&#x5728;&#x5207;&#x6362;&#x65F6;&#x4E0D;&#x4F1A;&#x8FDB;&#x884C;&#x9500;&#x6BC1;&#xFF0C;&#x800C;&#x662F;&#x7F13;&#x5B58;&#x5230;&#x5185;&#x5B58;&#x4E2D;&#x5E76;&#x6267;&#x884C; <code>deactivated</code> &#x94A9;&#x5B50;&#x51FD;&#x6570;&#xFF0C;&#x547D;&#x4E2D;&#x7F13;&#x5B58;&#x6E32;&#x67D3;&#x540E;&#x4F1A;&#x6267;&#x884C; <code>actived</code> &#x94A9;&#x5B50;&#x51FD;&#x6570;&#x3002;</p>
+<p>&#x6700;&#x540E;&#x5C31;&#x662F;&#x9500;&#x6BC1;&#x7EC4;&#x4EF6;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x4E86;</p>
+<pre><code class="lang-js">Vue.prototype.$destroy = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-comment">// ...</span>
+  callHook(vm, <span class="hljs-string">&apos;beforeDestroy&apos;</span>)
+  vm._isBeingDestroyed = <span class="hljs-literal">true</span>
+  <span class="hljs-comment">// remove self from parent</span>
+  <span class="hljs-keyword">const</span> parent = vm.$parent
+  <span class="hljs-keyword">if</span> (parent &amp;&amp; !parent._isBeingDestroyed &amp;&amp; !vm.$options.abstract) {
+    remove(parent.$children, vm)
+  }
+  <span class="hljs-comment">// teardown watchers</span>
+  <span class="hljs-keyword">if</span> (vm._watcher) {
+    vm._watcher.teardown()
+  }
+  <span class="hljs-keyword">let</span> i = vm._watchers.length
+  <span class="hljs-keyword">while</span> (i--) {
+    vm._watchers[i].teardown()
+  }
+  <span class="hljs-comment">// remove reference from data ob</span>
+  <span class="hljs-comment">// frozen object may not have observer.</span>
+  <span class="hljs-keyword">if</span> (vm._data.__ob__) {
+    vm._data.__ob__.vmCount--
+  }
+  <span class="hljs-comment">// call the last hook...</span>
+  vm._isDestroyed = <span class="hljs-literal">true</span>
+  <span class="hljs-comment">// invoke destroy hooks on current rendered tree</span>
+  vm.__patch__(vm._vnode, <span class="hljs-literal">null</span>)
+  <span class="hljs-comment">// fire destroyed hook</span>
+  callHook(vm, <span class="hljs-string">&apos;destroyed&apos;</span>)
+  <span class="hljs-comment">// turn off all instance listeners.</span>
+  vm.$off()
+  <span class="hljs-comment">// remove __vue__ reference</span>
+  <span class="hljs-keyword">if</span> (vm.$el) {
+    vm.$el.__vue__ = <span class="hljs-literal">null</span>
+  }
+  <span class="hljs-comment">// release circular reference (#6759)</span>
+  <span class="hljs-keyword">if</span> (vm.$vnode) {
+    vm.$vnode.parent = <span class="hljs-literal">null</span>
+  }
+}
+</code></pre>
+<p>&#x5728;&#x6267;&#x884C;&#x9500;&#x6BC1;&#x64CD;&#x4F5C;&#x524D;&#x4F1A;&#x8C03;&#x7528; <code>beforeDestroy</code> &#x94A9;&#x5B50;&#x51FD;&#x6570;&#xFF0C;&#x7136;&#x540E;&#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x9500;&#x6BC1;&#x64CD;&#x4F5C;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x5B50;&#x7EC4;&#x4EF6;&#x7684;&#x8BDD;&#xFF0C;&#x4E5F;&#x4F1A;&#x9012;&#x5F52;&#x9500;&#x6BC1;&#x5B50;&#x7EC4;&#x4EF6;&#xFF0C;&#x6240;&#x6709;&#x5B50;&#x7EC4;&#x4EF6;&#x90FD;&#x9500;&#x6BC1;&#x5B8C;&#x6BD5;&#x540E;&#x624D;&#x4F1A;&#x6267;&#x884C;&#x6839;&#x7EC4;&#x4EF6;&#x7684; <code>destroyed</code> &#x94A9;&#x5B50;&#x51FD;&#x6570;&#x3002;</p>
+<h1 id="vuerouter-&#x6E90;&#x7801;&#x89E3;&#x6790;">VueRouter &#x6E90;&#x7801;&#x89E3;&#x6790;</h1>
+<h2 id="&#x91CD;&#x8981;&#x51FD;&#x6570;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;">&#x91CD;&#x8981;&#x51FD;&#x6570;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;</h2>
+<p>&#x4EE5;&#x4E0B;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;&#x7F57;&#x5217;&#x4E86;&#x6E90;&#x7801;&#x4E2D;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x4E9B;&#x51FD;&#x6570;
+<a href="https://yck-1254263422.cos.ap-shanghai.myqcloud.com/blog/2019-06-01-042517.png" data-lightbox="bd438bc6-48b2-45c6-9204-60b1b114e7a7" data-title="" target="_blank"><img src="https://yck-1254263422.cos.ap-shanghai.myqcloud.com/blog/2019-06-01-042517.png" alt=""></a></p>
+<h2 id="&#x8DEF;&#x7531;&#x6CE8;&#x518C;">&#x8DEF;&#x7531;&#x6CE8;&#x518C;</h2>
+<p>&#x5728;&#x5F00;&#x59CB;&#x4E4B;&#x524D;&#xFF0C;&#x63A8;&#x8350;&#x5927;&#x5BB6; clone &#x4E00;&#x4EFD;&#x6E90;&#x7801;&#x5BF9;&#x7167;&#x7740;&#x770B;&#x3002;&#x56E0;&#x4E3A;&#x7BC7;&#x5E45;&#x8F83;&#x957F;&#xFF0C;&#x51FD;&#x6570;&#x95F4;&#x7684;&#x8DF3;&#x8F6C;&#x4E5F;&#x5F88;&#x591A;&#x3002;</p>
+<p>&#x4F7F;&#x7528;&#x8DEF;&#x7531;&#x4E4B;&#x524D;&#xFF0C;&#x9700;&#x8981;&#x8C03;&#x7528; <code>Vue.use(VueRouter)</code>&#xFF0C;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x8BA9;&#x63D2;&#x4EF6;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; Vue </p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">initUse</span> (<span class="hljs-params">Vue: GlobalAPI</span>) </span>{
+  Vue.use = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">plugin: Function | Object</span>) </span>{
+    <span class="hljs-comment">// &#x5224;&#x65AD;&#x91CD;&#x590D;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</span>
+    <span class="hljs-keyword">const</span> installedPlugins = (<span class="hljs-keyword">this</span>._installedPlugins || (<span class="hljs-keyword">this</span>._installedPlugins = []))
+    <span class="hljs-keyword">if</span> (installedPlugins.indexOf(plugin) &gt; <span class="hljs-number">-1</span>) {
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>
+    }
+    <span class="hljs-keyword">const</span> args = toArray(<span class="hljs-built_in">arguments</span>, <span class="hljs-number">1</span>)
+    <span class="hljs-comment">// &#x63D2;&#x5165; Vue</span>
+    args.unshift(<span class="hljs-keyword">this</span>)
+    <span class="hljs-comment">// &#x4E00;&#x822C;&#x63D2;&#x4EF6;&#x90FD;&#x4F1A;&#x6709;&#x4E00;&#x4E2A; install &#x51FD;&#x6570;</span>
+    <span class="hljs-comment">// &#x901A;&#x8FC7;&#x8BE5;&#x51FD;&#x6570;&#x8BA9;&#x63D2;&#x4EF6;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; Vue</span>
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> plugin.install === <span class="hljs-string">&apos;function&apos;</span>) {
+      plugin.install.apply(plugin, args)
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> plugin === <span class="hljs-string">&apos;function&apos;</span>) {
+      plugin.apply(<span class="hljs-literal">null</span>, args)
+    }
+    installedPlugins.push(plugin)
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>
+  }
+}
+</code></pre>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x770B;&#x4E0B; <code>install</code> &#x51FD;&#x6570;&#x7684;&#x90E8;&#x5206;&#x5B9E;&#x73B0;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">install</span> (<span class="hljs-params">Vue</span>) </span>{
+  <span class="hljs-comment">// &#x786E;&#x4FDD; install &#x8C03;&#x7528;&#x4E00;&#x6B21;</span>
+  <span class="hljs-keyword">if</span> (install.installed &amp;&amp; _Vue === Vue) <span class="hljs-keyword">return</span>
+  install.installed = <span class="hljs-literal">true</span>
+  <span class="hljs-comment">// &#x628A; Vue &#x8D4B;&#x503C;&#x7ED9;&#x5168;&#x5C40;&#x53D8;&#x91CF;</span>
+  _Vue = Vue
+  <span class="hljs-keyword">const</span> registerInstance = (vm, callVal) =&gt; {
+    <span class="hljs-keyword">let</span> i = vm.$options._parentVnode
+    <span class="hljs-keyword">if</span> (isDef(i) &amp;&amp; isDef(i = i.data) &amp;&amp; isDef(i = i.registerRouteInstance)) {
+      i(vm, callVal)
+    }
+  }
+  <span class="hljs-comment">// &#x7ED9;&#x6BCF;&#x4E2A;&#x7EC4;&#x4EF6;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x6DF7;&#x5165;&#x5B9E;&#x73B0;</span>
+  <span class="hljs-comment">// &#x53EF;&#x4EE5;&#x53D1;&#x73B0;&#x5728; `beforeCreate` &#x94A9;&#x5B50;&#x6267;&#x884C;&#x65F6;</span>
+  <span class="hljs-comment">// &#x4F1A;&#x521D;&#x59CB;&#x5316;&#x8DEF;&#x7531;</span>
+  Vue.mixin({
+    beforeCreate () {
+      <span class="hljs-comment">// &#x5224;&#x65AD;&#x7EC4;&#x4EF6;&#x662F;&#x5426;&#x5B58;&#x5728; router &#x5BF9;&#x8C61;&#xFF0C;&#x8BE5;&#x5BF9;&#x8C61;&#x53EA;&#x5728;&#x6839;&#x7EC4;&#x4EF6;&#x4E0A;&#x6709;</span>
+      <span class="hljs-keyword">if</span> (isDef(<span class="hljs-keyword">this</span>.$options.router)) {
+        <span class="hljs-comment">// &#x6839;&#x8DEF;&#x7531;&#x8BBE;&#x7F6E;&#x4E3A;&#x81EA;&#x5DF1;</span>
+        <span class="hljs-keyword">this</span>._routerRoot = <span class="hljs-keyword">this</span>
+        <span class="hljs-keyword">this</span>._router = <span class="hljs-keyword">this</span>.$options.router
+        <span class="hljs-comment">// &#x521D;&#x59CB;&#x5316;&#x8DEF;&#x7531;</span>
+        <span class="hljs-keyword">this</span>._router.init(<span class="hljs-keyword">this</span>)
+        <span class="hljs-comment">// &#x5F88;&#x91CD;&#x8981;&#xFF0C;&#x4E3A; _route &#x5C5E;&#x6027;&#x5B9E;&#x73B0;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;</span>
+        <span class="hljs-comment">// &#x89E6;&#x53D1;&#x7EC4;&#x4EF6;&#x6E32;&#x67D3;</span>
+        Vue.util.defineReactive(<span class="hljs-keyword">this</span>, <span class="hljs-string">&apos;_route&apos;</span>, <span class="hljs-keyword">this</span>._router.history.current)
+      } <span class="hljs-keyword">else</span> {
+        <span class="hljs-comment">// &#x7528;&#x4E8E; router-view &#x5C42;&#x7EA7;&#x5224;&#x65AD;</span>
+        <span class="hljs-keyword">this</span>._routerRoot = (<span class="hljs-keyword">this</span>.$parent &amp;&amp; <span class="hljs-keyword">this</span>.$parent._routerRoot) || <span class="hljs-keyword">this</span>
+      }
+      registerInstance(<span class="hljs-keyword">this</span>, <span class="hljs-keyword">this</span>)
+    },
+    destroyed () {
+      registerInstance(<span class="hljs-keyword">this</span>)
+    }
+  })
+  <span class="hljs-comment">// &#x5168;&#x5C40;&#x6CE8;&#x518C;&#x7EC4;&#x4EF6; router-link &#x548C; router-view</span>
+  Vue.component(<span class="hljs-string">&apos;RouterView&apos;</span>, View)
+  Vue.component(<span class="hljs-string">&apos;RouterLink&apos;</span>, Link)
+}
+</code></pre>
+<p>&#x5BF9;&#x4E8E;&#x8DEF;&#x7531;&#x6CE8;&#x518C;&#x6765;&#x8BF4;&#xFF0C;&#x6838;&#x5FC3;&#x5C31;&#x662F;&#x8C03;&#x7528; <code>Vue.use(VueRouter)</code>&#xFF0C;&#x4F7F;&#x5F97; VueRouter &#x53EF;&#x4EE5;&#x4F7F;&#x7528; Vue&#x3002;&#x7136;&#x540E;&#x901A;&#x8FC7; Vue &#x6765;&#x8C03;&#x7528; VueRouter &#x7684; <code>install</code> &#x51FD;&#x6570;&#x3002;&#x5728;&#x8BE5;&#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x6838;&#x5FC3;&#x5C31;&#x662F;&#x7ED9;&#x7EC4;&#x4EF6;&#x6DF7;&#x5165;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x548C;&#x5168;&#x5C40;&#x6CE8;&#x518C;&#x4E24;&#x4E2A;&#x8DEF;&#x7531;&#x7EC4;&#x4EF6;&#x3002;</p>
+<h2 id="vuerouter-&#x5B9E;&#x4F8B;&#x5316;">VueRouter &#x5B9E;&#x4F8B;&#x5316;</h2>
+<p>&#x5728;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;&#x540E;&#xFF0C;&#x5BF9; VueRouter &#x8FDB;&#x884C;&#x5B9E;&#x4F8B;&#x5316;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Home = { template: <span class="hljs-string">&apos;&lt;div&gt;home&lt;/div&gt;&apos;</span> }
+<span class="hljs-keyword">const</span> Foo = { template: <span class="hljs-string">&apos;&lt;div&gt;foo&lt;/div&gt;&apos;</span> }
+<span class="hljs-keyword">const</span> Bar = { template: <span class="hljs-string">&apos;&lt;div&gt;bar&lt;/div&gt;&apos;</span> }
+
+<span class="hljs-comment">// 3. Create the router</span>
+<span class="hljs-keyword">const</span> router = <span class="hljs-keyword">new</span> VueRouter({
+  mode: <span class="hljs-string">&apos;hash&apos;</span>,
+  base: __dirname,
+  routes: [
+    { path: <span class="hljs-string">&apos;/&apos;</span>, component: Home }, <span class="hljs-comment">// all paths are defined without the hash.</span>
+    { path: <span class="hljs-string">&apos;/foo&apos;</span>, component: Foo },
+    { path: <span class="hljs-string">&apos;/bar&apos;</span>, component: Bar }
+  ]
+})
+</code></pre>
+<p>&#x6765;&#x770B;&#x4E00;&#x4E0B; VueRouter &#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">constructor</span>(options: RouterOptions = {}) {
+    <span class="hljs-comment">// ...</span>
+    <span class="hljs-comment">// &#x8DEF;&#x7531;&#x5339;&#x914D;&#x5BF9;&#x8C61;</span>
+    <span class="hljs-keyword">this</span>.matcher = createMatcher(options.routes || [], <span class="hljs-keyword">this</span>)
+
+    <span class="hljs-comment">// &#x6839;&#x636E; mode &#x91C7;&#x53D6;&#x4E0D;&#x540C;&#x7684;&#x8DEF;&#x7531;&#x65B9;&#x5F0F;</span>
+    <span class="hljs-keyword">let</span> mode = options.mode || <span class="hljs-string">&apos;hash&apos;</span>
+    <span class="hljs-keyword">this</span>.fallback =
+      mode === <span class="hljs-string">&apos;history&apos;</span> &amp;&amp; !supportsPushState &amp;&amp; options.fallback !== <span class="hljs-literal">false</span>
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.fallback) {
+      mode = <span class="hljs-string">&apos;hash&apos;</span>
+    }
+    <span class="hljs-keyword">if</span> (!inBrowser) {
+      mode = <span class="hljs-string">&apos;abstract&apos;</span>
+    }
+    <span class="hljs-keyword">this</span>.mode = mode
+
+    <span class="hljs-keyword">switch</span> (mode) {
+      <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;history&apos;</span>:
+        <span class="hljs-keyword">this</span>.history = <span class="hljs-keyword">new</span> HTML5History(<span class="hljs-keyword">this</span>, options.base)
+        <span class="hljs-keyword">break</span>
+      <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;hash&apos;</span>:
+        <span class="hljs-keyword">this</span>.history = <span class="hljs-keyword">new</span> HashHistory(<span class="hljs-keyword">this</span>, options.base, <span class="hljs-keyword">this</span>.fallback)
+        <span class="hljs-keyword">break</span>
+      <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;abstract&apos;</span>:
+        <span class="hljs-keyword">this</span>.history = <span class="hljs-keyword">new</span> AbstractHistory(<span class="hljs-keyword">this</span>, options.base)
+        <span class="hljs-keyword">break</span>
+      <span class="hljs-keyword">default</span>:
+        <span class="hljs-keyword">if</span> (process.env.NODE_ENV !== <span class="hljs-string">&apos;production&apos;</span>) {
+          assert(<span class="hljs-literal">false</span>, <span class="hljs-string">`invalid mode: <span class="hljs-subst">${mode}</span>`</span>)
+        }
+    }
+  }
+</code></pre>
+<p>&#x5728;&#x5B9E;&#x4F8B;&#x5316; VueRouter &#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x6838;&#x5FC3;&#x662F;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x8DEF;&#x7531;&#x5339;&#x914D;&#x5BF9;&#x8C61;&#xFF0C;&#x5E76;&#x4E14;&#x6839;&#x636E; mode &#x6765;&#x91C7;&#x53D6;&#x4E0D;&#x540C;&#x7684;&#x8DEF;&#x7531;&#x65B9;&#x5F0F;&#x3002;</p>
+<h2 id="&#x521B;&#x5EFA;&#x8DEF;&#x7531;&#x5339;&#x914D;&#x5BF9;&#x8C61;">&#x521B;&#x5EFA;&#x8DEF;&#x7531;&#x5339;&#x914D;&#x5BF9;&#x8C61;</h2>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createMatcher</span> (<span class="hljs-params">
+  routes: Array&lt;RouteConfig&gt;,
+  router: VueRouter
+</span>): <span class="hljs-title">Matcher</span> </span>{
+    <span class="hljs-comment">// &#x521B;&#x5EFA;&#x8DEF;&#x7531;&#x6620;&#x5C04;&#x8868;</span>
+  <span class="hljs-keyword">const</span> { pathList, pathMap, nameMap } = createRouteMap(routes)
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">addRoutes</span> (<span class="hljs-params">routes</span>) </span>{
+    createRouteMap(routes, pathList, pathMap, nameMap)
+  }
+  <span class="hljs-comment">// &#x8DEF;&#x7531;&#x5339;&#x914D;</span>
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">match</span> (<span class="hljs-params">
+    raw: RawLocation,
+    currentRoute?: Route,
+    redirectedFrom?: Location
+  </span>): <span class="hljs-title">Route</span> </span>{
+    <span class="hljs-comment">//...</span>
+  }
+
+  <span class="hljs-keyword">return</span> {
+    match,
+    addRoutes
+  }
+}
+</code></pre>
+<p><code>createMatcher</code> &#x51FD;&#x6570;&#x7684;&#x4F5C;&#x7528;&#x5C31;&#x662F;&#x521B;&#x5EFA;&#x8DEF;&#x7531;&#x6620;&#x5C04;&#x8868;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;&#x95ED;&#x5305;&#x7684;&#x65B9;&#x5F0F;&#x8BA9; <code>addRoutes</code> &#x548C; <code>match</code> &#x51FD;&#x6570;&#x80FD;&#x591F;&#x4F7F;&#x7528;&#x8DEF;&#x7531;&#x6620;&#x5C04;&#x8868;&#x7684;&#x51E0;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x6700;&#x540E;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A; <code>Matcher</code> &#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x770B; <code>createMatcher</code> &#x51FD;&#x6570;&#x65F6;&#x5982;&#x4F55;&#x521B;&#x5EFA;&#x6620;&#x5C04;&#x8868;&#x7684;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createRouteMap</span> (<span class="hljs-params">
+  routes: Array&lt;RouteConfig&gt;,
+  oldPathList?: Array&lt;string&gt;,
+  oldPathMap?: Dictionary&lt;RouteRecord&gt;,
+  oldNameMap?: Dictionary&lt;RouteRecord&gt;
+</span>): </span>{
+  pathList: <span class="hljs-built_in">Array</span>&lt;string&gt;;
+  pathMap: Dictionary&lt;RouteRecord&gt;;
+  nameMap: Dictionary&lt;RouteRecord&gt;;
+} {
+  <span class="hljs-comment">// &#x521B;&#x5EFA;&#x6620;&#x5C04;&#x8868;</span>
+  <span class="hljs-keyword">const</span> pathList: <span class="hljs-built_in">Array</span>&lt;string&gt; = oldPathList || []
+  <span class="hljs-keyword">const</span> pathMap: Dictionary&lt;RouteRecord&gt; = oldPathMap || <span class="hljs-built_in">Object</span>.create(<span class="hljs-literal">null</span>)
+  <span class="hljs-keyword">const</span> nameMap: Dictionary&lt;RouteRecord&gt; = oldNameMap || <span class="hljs-built_in">Object</span>.create(<span class="hljs-literal">null</span>)
+  <span class="hljs-comment">// &#x904D;&#x5386;&#x8DEF;&#x7531;&#x914D;&#x7F6E;&#xFF0C;&#x4E3A;&#x6BCF;&#x4E2A;&#x914D;&#x7F6E;&#x6DFB;&#x52A0;&#x8DEF;&#x7531;&#x8BB0;&#x5F55;</span>
+  routes.forEach(route =&gt; {
+    addRouteRecord(pathList, pathMap, nameMap, route)
+  })
+  <span class="hljs-comment">// &#x786E;&#x4FDD;&#x901A;&#x914D;&#x7B26;&#x5728;&#x6700;&#x540E;</span>
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>, l = pathList.length; i &lt; l; i++) {
+    <span class="hljs-keyword">if</span> (pathList[i] === <span class="hljs-string">&apos;*&apos;</span>) {
+      pathList.push(pathList.splice(i, <span class="hljs-number">1</span>)[<span class="hljs-number">0</span>])
+      l--
+      i--
+    }
+  }
+  <span class="hljs-keyword">return</span> {
+    pathList,
+    pathMap,
+    nameMap
+  }
+}
+<span class="hljs-comment">// &#x6DFB;&#x52A0;&#x8DEF;&#x7531;&#x8BB0;&#x5F55;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">addRouteRecord</span> (<span class="hljs-params">
+  pathList: Array&lt;string&gt;,
+  pathMap: Dictionary&lt;RouteRecord&gt;,
+  nameMap: Dictionary&lt;RouteRecord&gt;,
+  route: RouteConfig,
+  parent?: RouteRecord,
+  matchAs?: string
+</span>) </span>{
+  <span class="hljs-comment">// &#x83B7;&#x5F97;&#x8DEF;&#x7531;&#x914D;&#x7F6E;&#x4E0B;&#x7684;&#x5C5E;&#x6027;</span>
+  <span class="hljs-keyword">const</span> { path, name } = route
+  <span class="hljs-keyword">const</span> pathToRegexpOptions: PathToRegexpOptions = route.pathToRegexpOptions || {}
+  <span class="hljs-comment">// &#x683C;&#x5F0F;&#x5316; url&#xFF0C;&#x66FF;&#x6362; / </span>
+  <span class="hljs-keyword">const</span> normalizedPath = normalizePath(
+    path,
+    parent,
+    pathToRegexpOptions.strict
+  )
+  <span class="hljs-comment">// &#x751F;&#x6210;&#x8BB0;&#x5F55;&#x5BF9;&#x8C61;</span>
+  <span class="hljs-keyword">const</span> record: RouteRecord = {
+    path: normalizedPath,
+    regex: compileRouteRegex(normalizedPath, pathToRegexpOptions),
+    components: route.components || { <span class="hljs-keyword">default</span>: route.component },
+    instances: {},
+    name,
+    parent,
+    matchAs,
+    redirect: route.redirect,
+    beforeEnter: route.beforeEnter,
+    meta: route.meta || {},
+    props: route.props == <span class="hljs-literal">null</span>
+      ? {}
+      : route.components
+        ? route.props
+        : { <span class="hljs-keyword">default</span>: route.props }
+  }
+
+  <span class="hljs-keyword">if</span> (route.children) {
+    <span class="hljs-comment">// &#x9012;&#x5F52;&#x8DEF;&#x7531;&#x914D;&#x7F6E;&#x7684; children &#x5C5E;&#x6027;&#xFF0C;&#x6DFB;&#x52A0;&#x8DEF;&#x7531;&#x8BB0;&#x5F55;</span>
+    route.children.forEach(child =&gt; {
+      <span class="hljs-keyword">const</span> childMatchAs = matchAs
+        ? cleanPath(<span class="hljs-string">`<span class="hljs-subst">${matchAs}</span>/<span class="hljs-subst">${child.path}</span>`</span>)
+        : <span class="hljs-literal">undefined</span>
+      addRouteRecord(pathList, pathMap, nameMap, child, record, childMatchAs)
+    })
+  }
+  <span class="hljs-comment">// &#x5982;&#x679C;&#x8DEF;&#x7531;&#x6709;&#x522B;&#x540D;&#x7684;&#x8BDD;</span>
+  <span class="hljs-comment">// &#x7ED9;&#x522B;&#x540D;&#x4E5F;&#x6DFB;&#x52A0;&#x8DEF;&#x7531;&#x8BB0;&#x5F55;</span>
+  <span class="hljs-keyword">if</span> (route.alias !== <span class="hljs-literal">undefined</span>) {
+    <span class="hljs-keyword">const</span> aliases = <span class="hljs-built_in">Array</span>.isArray(route.alias)
+      ? route.alias
+      : [route.alias]
+
+    aliases.forEach(alias =&gt; {
+      <span class="hljs-keyword">const</span> aliasRoute = {
+        path: alias,
+        children: route.children
+      }
+      addRouteRecord(
+        pathList,
+        pathMap,
+        nameMap,
+        aliasRoute,
+        parent,
+        record.path || <span class="hljs-string">&apos;/&apos;</span> <span class="hljs-comment">// matchAs</span>
+      )
+    })
+  }
+  <span class="hljs-comment">// &#x66F4;&#x65B0;&#x6620;&#x5C04;&#x8868;</span>
+  <span class="hljs-keyword">if</span> (!pathMap[record.path]) {
+    pathList.push(record.path)
+    pathMap[record.path] = record
+  }
+  <span class="hljs-comment">// &#x547D;&#x540D;&#x8DEF;&#x7531;&#x6DFB;&#x52A0;&#x8BB0;&#x5F55;</span>
+  <span class="hljs-keyword">if</span> (name) {
+    <span class="hljs-keyword">if</span> (!nameMap[name]) {
+      nameMap[name] = record
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (process.env.NODE_ENV !== <span class="hljs-string">&apos;production&apos;</span> &amp;&amp; !matchAs) {
+      warn(
+        <span class="hljs-literal">false</span>,
+        <span class="hljs-string">`Duplicate named routes definition: `</span> +
+        <span class="hljs-string">`{ name: &quot;<span class="hljs-subst">${name}</span>&quot;, path: &quot;<span class="hljs-subst">${record.path}</span>&quot; }`</span>
+      )
+    }
+  }
+}
+</code></pre>
+<p>&#x4EE5;&#x4E0A;&#x5C31;&#x662F;&#x521B;&#x5EFA;&#x8DEF;&#x7531;&#x5339;&#x914D;&#x5BF9;&#x8C61;&#x7684;&#x5168;&#x8FC7;&#x7A0B;&#xFF0C;&#x901A;&#x8FC7;&#x7528;&#x6237;&#x914D;&#x7F6E;&#x7684;&#x8DEF;&#x7531;&#x89C4;&#x5219;&#x6765;&#x521B;&#x5EFA;&#x5BF9;&#x5E94;&#x7684;&#x8DEF;&#x7531;&#x6620;&#x5C04;&#x8868;&#x3002;</p>
+<h2 id="&#x8DEF;&#x7531;&#x521D;&#x59CB;&#x5316;">&#x8DEF;&#x7531;&#x521D;&#x59CB;&#x5316;</h2>
+<p>&#x5F53;&#x6839;&#x7EC4;&#x4EF6;&#x8C03;&#x7528; <code>beforeCreate</code> &#x94A9;&#x5B50;&#x51FD;&#x6570;&#x65F6;&#xFF0C;&#x4F1A;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;</p>
+<pre><code class="lang-js">beforeCreate () {
+<span class="hljs-comment">// &#x53EA;&#x6709;&#x6839;&#x7EC4;&#x4EF6;&#x6709; router &#x5C5E;&#x6027;&#xFF0C;&#x6240;&#x4EE5;&#x6839;&#x7EC4;&#x4EF6;&#x521D;&#x59CB;&#x5316;&#x65F6;&#x4F1A;&#x521D;&#x59CB;&#x5316;&#x8DEF;&#x7531;</span>
+  <span class="hljs-keyword">if</span> (isDef(<span class="hljs-keyword">this</span>.$options.router)) {
+    <span class="hljs-keyword">this</span>._routerRoot = <span class="hljs-keyword">this</span>
+    <span class="hljs-keyword">this</span>._router = <span class="hljs-keyword">this</span>.$options.router
+    <span class="hljs-keyword">this</span>._router.init(<span class="hljs-keyword">this</span>)
+    Vue.util.defineReactive(<span class="hljs-keyword">this</span>, <span class="hljs-string">&apos;_route&apos;</span>, <span class="hljs-keyword">this</span>._router.history.current)
+  } <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">this</span>._routerRoot = (<span class="hljs-keyword">this</span>.$parent &amp;&amp; <span class="hljs-keyword">this</span>.$parent._routerRoot) || <span class="hljs-keyword">this</span>
+  }
+  registerInstance(<span class="hljs-keyword">this</span>, <span class="hljs-keyword">this</span>)
+}
+</code></pre>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x770B;&#x4E0B;&#x8DEF;&#x7531;&#x521D;&#x59CB;&#x5316;&#x4F1A;&#x505A;&#x4E9B;&#x4EC0;&#x4E48;</p>
+<pre><code class="lang-js">init(app: any <span class="hljs-comment">/* Vue component instance */</span>) {
+    <span class="hljs-comment">// &#x4FDD;&#x5B58;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;</span>
+    <span class="hljs-keyword">this</span>.apps.push(app)
+    <span class="hljs-comment">// &#x5982;&#x679C;&#x6839;&#x7EC4;&#x4EF6;&#x5DF2;&#x7ECF;&#x6709;&#x4E86;&#x5C31;&#x8FD4;&#x56DE;</span>
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.app) {
+      <span class="hljs-keyword">return</span>
+    }
+    <span class="hljs-keyword">this</span>.app = app
+    <span class="hljs-comment">// &#x8D4B;&#x503C;&#x8DEF;&#x7531;&#x6A21;&#x5F0F;</span>
+    <span class="hljs-keyword">const</span> history = <span class="hljs-keyword">this</span>.history
+    <span class="hljs-comment">// &#x5224;&#x65AD;&#x8DEF;&#x7531;&#x6A21;&#x5F0F;&#xFF0C;&#x4EE5;&#x54C8;&#x5E0C;&#x6A21;&#x5F0F;&#x4E3A;&#x4F8B;</span>
+    <span class="hljs-keyword">if</span> (history <span class="hljs-keyword">instanceof</span> HTML5History) {
+      history.transitionTo(history.getCurrentLocation())
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (history <span class="hljs-keyword">instanceof</span> HashHistory) {
+      <span class="hljs-comment">// &#x6DFB;&#x52A0; hashchange &#x76D1;&#x542C;</span>
+      <span class="hljs-keyword">const</span> setupHashListener = () =&gt; {
+        history.setupListeners()
+      }
+      <span class="hljs-comment">// &#x8DEF;&#x7531;&#x8DF3;&#x8F6C;</span>
+      history.transitionTo(
+        history.getCurrentLocation(),
+        setupHashListener,
+        setupHashListener
+      )
+    }
+    <span class="hljs-comment">// &#x8BE5;&#x56DE;&#x8C03;&#x4F1A;&#x5728; transitionTo &#x4E2D;&#x8C03;&#x7528;</span>
+    <span class="hljs-comment">// &#x5BF9;&#x7EC4;&#x4EF6;&#x7684; _route &#x5C5E;&#x6027;&#x8FDB;&#x884C;&#x8D4B;&#x503C;&#xFF0C;&#x89E6;&#x53D1;&#x7EC4;&#x4EF6;&#x6E32;&#x67D3;</span>
+    history.listen(route =&gt; {
+      <span class="hljs-keyword">this</span>.apps.forEach(app =&gt; {
+        app._route = route
+      })
+    })
+  }
+</code></pre>
+<p>&#x5728;&#x8DEF;&#x7531;&#x521D;&#x59CB;&#x5316;&#x65F6;&#xFF0C;&#x6838;&#x5FC3;&#x5C31;&#x662F;&#x8FDB;&#x884C;&#x8DEF;&#x7531;&#x7684;&#x8DF3;&#x8F6C;&#xFF0C;&#x6539;&#x53D8; URL &#x7136;&#x540E;&#x6E32;&#x67D3;&#x5BF9;&#x5E94;&#x7684;&#x7EC4;&#x4EF6;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x6765;&#x770B;&#x4E00;&#x4E0B;&#x8DEF;&#x7531;&#x662F;&#x5982;&#x4F55;&#x8FDB;&#x884C;&#x8DF3;&#x8F6C;&#x7684;&#x3002;</p>
+<h2 id="&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;">&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;</h2>
+<pre><code class="lang-js">transitionTo (location: RawLocation, onComplete?: <span class="hljs-built_in">Function</span>, onAbort?: <span class="hljs-built_in">Function</span>) {
+  <span class="hljs-comment">// &#x83B7;&#x53D6;&#x5339;&#x914D;&#x7684;&#x8DEF;&#x7531;&#x4FE1;&#x606F;</span>
+  <span class="hljs-keyword">const</span> route = <span class="hljs-keyword">this</span>.router.match(location, <span class="hljs-keyword">this</span>.current)
+  <span class="hljs-comment">// &#x786E;&#x8BA4;&#x5207;&#x6362;&#x8DEF;&#x7531;</span>
+  <span class="hljs-keyword">this</span>.confirmTransition(route, () =&gt; {
+    <span class="hljs-comment">// &#x4EE5;&#x4E0B;&#x4E3A;&#x5207;&#x6362;&#x8DEF;&#x7531;&#x6210;&#x529F;&#x6216;&#x5931;&#x8D25;&#x7684;&#x56DE;&#x8C03;</span>
+    <span class="hljs-comment">// &#x66F4;&#x65B0;&#x8DEF;&#x7531;&#x4FE1;&#x606F;&#xFF0C;&#x5BF9;&#x7EC4;&#x4EF6;&#x7684; _route &#x5C5E;&#x6027;&#x8FDB;&#x884C;&#x8D4B;&#x503C;&#xFF0C;&#x89E6;&#x53D1;&#x7EC4;&#x4EF6;&#x6E32;&#x67D3;</span>
+    <span class="hljs-comment">// &#x8C03;&#x7528; afterHooks &#x4E2D;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;</span>
+    <span class="hljs-keyword">this</span>.updateRoute(route)
+    <span class="hljs-comment">// &#x6DFB;&#x52A0; hashchange &#x76D1;&#x542C;</span>
+    onComplete &amp;&amp; onComplete(route)
+    <span class="hljs-comment">// &#x66F4;&#x65B0; URL</span>
+    <span class="hljs-keyword">this</span>.ensureURL()
+    <span class="hljs-comment">// &#x53EA;&#x6267;&#x884C;&#x4E00;&#x6B21; ready &#x56DE;&#x8C03;</span>
+    <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">this</span>.ready) {
+      <span class="hljs-keyword">this</span>.ready = <span class="hljs-literal">true</span>
+      <span class="hljs-keyword">this</span>.readyCbs.forEach(cb =&gt; { cb(route) })
+    }
+  }, err =&gt; {
+  <span class="hljs-comment">// &#x9519;&#x8BEF;&#x5904;&#x7406;</span>
+    <span class="hljs-keyword">if</span> (onAbort) {
+      onAbort(err)
+    }
+    <span class="hljs-keyword">if</span> (err &amp;&amp; !<span class="hljs-keyword">this</span>.ready) {
+      <span class="hljs-keyword">this</span>.ready = <span class="hljs-literal">true</span>
+      <span class="hljs-keyword">this</span>.readyErrorCbs.forEach(cb =&gt; { cb(err) })
+    }
+  })
+}
+</code></pre>
+<p>&#x5728;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;&#x4E2D;&#xFF0C;&#x9700;&#x8981;&#x5148;&#x83B7;&#x53D6;&#x5339;&#x914D;&#x7684;&#x8DEF;&#x7531;&#x4FE1;&#x606F;&#xFF0C;&#x6240;&#x4EE5;&#x5148;&#x6765;&#x770B;&#x4E0B;&#x5982;&#x4F55;&#x83B7;&#x53D6;&#x5339;&#x914D;&#x7684;&#x8DEF;&#x7531;&#x4FE1;&#x606F;</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">match</span> (<span class="hljs-params">
+  raw: RawLocation,
+  currentRoute?: Route,
+  redirectedFrom?: Location
+</span>): <span class="hljs-title">Route</span> </span>{
+  <span class="hljs-comment">// &#x5E8F;&#x5217;&#x5316; url</span>
+  <span class="hljs-comment">// &#x6BD4;&#x5982;&#x5BF9;&#x4E8E;&#x8BE5; url &#x6765;&#x8BF4; /abc?foo=bar&amp;baz=qux#hello</span>
+  <span class="hljs-comment">// &#x4F1A;&#x5E8F;&#x5217;&#x5316;&#x8DEF;&#x5F84;&#x4E3A; /abc</span>
+  <span class="hljs-comment">// &#x54C8;&#x5E0C;&#x4E3A; #hello</span>
+  <span class="hljs-comment">// &#x53C2;&#x6570;&#x4E3A; foo: &apos;bar&apos;, baz: &apos;qux&apos;</span>
+  <span class="hljs-keyword">const</span> location = normalizeLocation(raw, currentRoute, <span class="hljs-literal">false</span>, router)
+  <span class="hljs-keyword">const</span> { name } = location
+  <span class="hljs-comment">// &#x5982;&#x679C;&#x662F;&#x547D;&#x540D;&#x8DEF;&#x7531;&#xFF0C;&#x5C31;&#x5224;&#x65AD;&#x8BB0;&#x5F55;&#x4E2D;&#x662F;&#x5426;&#x6709;&#x8BE5;&#x547D;&#x540D;&#x8DEF;&#x7531;&#x914D;&#x7F6E;</span>
+  <span class="hljs-keyword">if</span> (name) {
+    <span class="hljs-keyword">const</span> record = nameMap[name]
+    <span class="hljs-comment">// &#x6CA1;&#x627E;&#x5230;&#x8868;&#x793A;&#x6CA1;&#x6709;&#x5339;&#x914D;&#x7684;&#x8DEF;&#x7531;</span>
+    <span class="hljs-keyword">if</span> (!record) <span class="hljs-keyword">return</span> _createRoute(<span class="hljs-literal">null</span>, location)
+    <span class="hljs-keyword">const</span> paramNames = record.regex.keys
+      .filter(key =&gt; !key.optional)
+      .map(key =&gt; key.name)
+    <span class="hljs-comment">// &#x53C2;&#x6570;&#x5904;&#x7406;</span>
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> location.params !== <span class="hljs-string">&apos;object&apos;</span>) {
+      location.params = {}
+    }
+    <span class="hljs-keyword">if</span> (currentRoute &amp;&amp; <span class="hljs-keyword">typeof</span> currentRoute.params === <span class="hljs-string">&apos;object&apos;</span>) {
+      <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> key <span class="hljs-keyword">in</span> currentRoute.params) {
+        <span class="hljs-keyword">if</span> (!(key <span class="hljs-keyword">in</span> location.params) &amp;&amp; paramNames.indexOf(key) &gt; <span class="hljs-number">-1</span>) {
+          location.params[key] = currentRoute.params[key]
+        }
+      }
+    }
+    <span class="hljs-keyword">if</span> (record) {
+      location.path = fillParams(record.path, location.params, <span class="hljs-string">`named route &quot;<span class="hljs-subst">${name}</span>&quot;`</span>)
+      <span class="hljs-keyword">return</span> _createRoute(record, location, redirectedFrom)
+    }
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (location.path) {
+    <span class="hljs-comment">// &#x975E;&#x547D;&#x540D;&#x8DEF;&#x7531;&#x5904;&#x7406;</span>
+    location.params = {}
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; pathList.length; i++) {
+     <span class="hljs-comment">// &#x67E5;&#x627E;&#x8BB0;&#x5F55;</span>
+      <span class="hljs-keyword">const</span> path = pathList[i]
+      <span class="hljs-keyword">const</span> record = pathMap[path]
+      <span class="hljs-comment">// &#x5982;&#x679C;&#x5339;&#x914D;&#x8DEF;&#x7531;&#xFF0C;&#x5219;&#x521B;&#x5EFA;&#x8DEF;&#x7531;</span>
+      <span class="hljs-keyword">if</span> (matchRoute(record.regex, location.path, location.params)) {
+        <span class="hljs-keyword">return</span> _createRoute(record, location, redirectedFrom)
+      }
+    }
+  }
+  <span class="hljs-comment">// &#x6CA1;&#x6709;&#x5339;&#x914D;&#x7684;&#x8DEF;&#x7531;</span>
+  <span class="hljs-keyword">return</span> _createRoute(<span class="hljs-literal">null</span>, location)
+}
+</code></pre>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x770B;&#x770B;&#x5982;&#x4F55;&#x521B;&#x5EFA;&#x8DEF;&#x7531;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// &#x6839;&#x636E;&#x6761;&#x4EF6;&#x521B;&#x5EFA;&#x4E0D;&#x540C;&#x7684;&#x8DEF;&#x7531;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">_createRoute</span>(<span class="hljs-params">
+  record: ?RouteRecord,
+  location: Location,
+  redirectedFrom?: Location
+</span>): <span class="hljs-title">Route</span> </span>{
+  <span class="hljs-keyword">if</span> (record &amp;&amp; record.redirect) {
+    <span class="hljs-keyword">return</span> redirect(record, redirectedFrom || location)
+  }
+  <span class="hljs-keyword">if</span> (record &amp;&amp; record.matchAs) {
+    <span class="hljs-keyword">return</span> alias(record, location, record.matchAs)
+  }
+  <span class="hljs-keyword">return</span> createRoute(record, location, redirectedFrom, router)
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createRoute</span> (<span class="hljs-params">
+  record: ?RouteRecord,
+  location: Location,
+  redirectedFrom?: ?Location,
+  router?: VueRouter
+</span>): <span class="hljs-title">Route</span> </span>{
+  <span class="hljs-keyword">const</span> stringifyQuery = router &amp;&amp; router.options.stringifyQuery
+  <span class="hljs-comment">// &#x514B;&#x9686;&#x53C2;&#x6570;</span>
+  <span class="hljs-keyword">let</span> query: any = location.query || {}
+  <span class="hljs-keyword">try</span> {
+    query = clone(query)
+  } <span class="hljs-keyword">catch</span> (e) {}
+  <span class="hljs-comment">// &#x521B;&#x5EFA;&#x8DEF;&#x7531;&#x5BF9;&#x8C61;</span>
+  <span class="hljs-keyword">const</span> route: Route = {
+    name: location.name || (record &amp;&amp; record.name),
+    meta: (record &amp;&amp; record.meta) || {},
+    path: location.path || <span class="hljs-string">&apos;/&apos;</span>,
+    hash: location.hash || <span class="hljs-string">&apos;&apos;</span>,
+    query,
+    params: location.params || {},
+    fullPath: getFullPath(location, stringifyQuery),
+    matched: record ? formatMatch(record) : []
+  }
+  <span class="hljs-keyword">if</span> (redirectedFrom) {
+    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery)
+  }
+  <span class="hljs-comment">// &#x8BA9;&#x8DEF;&#x7531;&#x5BF9;&#x8C61;&#x4E0D;&#x53EF;&#x4FEE;&#x6539;</span>
+  <span class="hljs-keyword">return</span> <span class="hljs-built_in">Object</span>.freeze(route)
+}
+<span class="hljs-comment">// &#x83B7;&#x5F97;&#x5305;&#x542B;&#x5F53;&#x524D;&#x8DEF;&#x7531;&#x7684;&#x6240;&#x6709;&#x5D4C;&#x5957;&#x8DEF;&#x5F84;&#x7247;&#x6BB5;&#x7684;&#x8DEF;&#x7531;&#x8BB0;&#x5F55;</span>
+<span class="hljs-comment">// &#x5305;&#x542B;&#x4ECE;&#x6839;&#x8DEF;&#x7531;&#x5230;&#x5F53;&#x524D;&#x8DEF;&#x7531;&#x7684;&#x5339;&#x914D;&#x8BB0;&#x5F55;&#xFF0C;&#x4ECE;&#x4E0A;&#x81F3;&#x4E0B;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">formatMatch</span>(<span class="hljs-params">record: ?RouteRecord</span>): <span class="hljs-title">Array</span>&lt;<span class="hljs-title">RouteRecord</span>&gt; </span>{
+  <span class="hljs-keyword">const</span> res = []
+  <span class="hljs-keyword">while</span> (record) {
+    res.unshift(record)
+    record = record.parent
+  }
+  <span class="hljs-keyword">return</span> res
+}
+</code></pre>
+<p>&#x81F3;&#x6B64;&#x5339;&#x914D;&#x8DEF;&#x7531;&#x5DF2;&#x7ECF;&#x5B8C;&#x6210;&#xFF0C;&#x6211;&#x4EEC;&#x56DE;&#x5230; <code>transitionTo</code> &#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x6267;&#x884C; <code>confirmTransition</code> </p>
+<pre><code class="lang-js">transitionTo (location: RawLocation, onComplete?: <span class="hljs-built_in">Function</span>, onAbort?: <span class="hljs-built_in">Function</span>) {
+  <span class="hljs-comment">// &#x786E;&#x8BA4;&#x5207;&#x6362;&#x8DEF;&#x7531;</span>
+  <span class="hljs-keyword">this</span>.confirmTransition(route, () =&gt; {}
+}
+confirmTransition(route: Route, onComplete: <span class="hljs-built_in">Function</span>, onAbort?: <span class="hljs-built_in">Function</span>) {
+  <span class="hljs-keyword">const</span> current = <span class="hljs-keyword">this</span>.current
+  <span class="hljs-comment">// &#x4E2D;&#x65AD;&#x8DF3;&#x8F6C;&#x8DEF;&#x7531;&#x51FD;&#x6570;</span>
+  <span class="hljs-keyword">const</span> abort = err =&gt; {
+    <span class="hljs-keyword">if</span> (isError(err)) {
+      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.errorCbs.length) {
+        <span class="hljs-keyword">this</span>.errorCbs.forEach(cb =&gt; {
+          cb(err)
+        })
+      } <span class="hljs-keyword">else</span> {
+        warn(<span class="hljs-literal">false</span>, <span class="hljs-string">&apos;uncaught error during route navigation:&apos;</span>)
+        <span class="hljs-built_in">console</span>.error(err)
+      }
+    }
+    onAbort &amp;&amp; onAbort(err)
+  }
+  <span class="hljs-comment">// &#x5982;&#x679C;&#x662F;&#x76F8;&#x540C;&#x7684;&#x8DEF;&#x7531;&#x5C31;&#x4E0D;&#x8DF3;&#x8F6C;</span>
+  <span class="hljs-keyword">if</span> (
+    isSameRoute(route, current) &amp;&amp;
+    route.matched.length === current.matched.length
+  ) {
+    <span class="hljs-keyword">this</span>.ensureURL()
+    <span class="hljs-keyword">return</span> abort()
+  }
+  <span class="hljs-comment">// &#x901A;&#x8FC7;&#x5BF9;&#x6BD4;&#x8DEF;&#x7531;&#x89E3;&#x6790;&#x51FA;&#x53EF;&#x590D;&#x7528;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x9700;&#x8981;&#x6E32;&#x67D3;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x5931;&#x6D3B;&#x7684;&#x7EC4;&#x4EF6;</span>
+  <span class="hljs-keyword">const</span> { updated, deactivated, activated } = resolveQueue(
+    <span class="hljs-keyword">this</span>.current.matched,
+    route.matched
+  )
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">resolveQueue</span>(<span class="hljs-params">
+      current: Array&lt;RouteRecord&gt;,
+      next: Array&lt;RouteRecord&gt;
+    </span>): </span>{
+      updated: <span class="hljs-built_in">Array</span>&lt;RouteRecord&gt;,
+      activated: <span class="hljs-built_in">Array</span>&lt;RouteRecord&gt;,
+      deactivated: <span class="hljs-built_in">Array</span>&lt;RouteRecord&gt;
+    } {
+      <span class="hljs-keyword">let</span> i
+      <span class="hljs-keyword">const</span> max = <span class="hljs-built_in">Math</span>.max(current.length, next.length)
+      <span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; max; i++) {
+        <span class="hljs-comment">// &#x5F53;&#x524D;&#x8DEF;&#x7531;&#x8DEF;&#x5F84;&#x548C;&#x8DF3;&#x8F6C;&#x8DEF;&#x7531;&#x8DEF;&#x5F84;&#x4E0D;&#x540C;&#x65F6;&#x8DF3;&#x51FA;&#x904D;&#x5386;</span>
+        <span class="hljs-keyword">if</span> (current[i] !== next[i]) {
+          <span class="hljs-keyword">break</span>
+        }
+      }
+      <span class="hljs-keyword">return</span> {
+        <span class="hljs-comment">// &#x53EF;&#x590D;&#x7528;&#x7684;&#x7EC4;&#x4EF6;&#x5BF9;&#x5E94;&#x8DEF;&#x7531;</span>
+        updated: next.slice(<span class="hljs-number">0</span>, i),
+        <span class="hljs-comment">// &#x9700;&#x8981;&#x6E32;&#x67D3;&#x7684;&#x7EC4;&#x4EF6;&#x5BF9;&#x5E94;&#x8DEF;&#x7531;</span>
+        activated: next.slice(i),
+        <span class="hljs-comment">// &#x5931;&#x6D3B;&#x7684;&#x7EC4;&#x4EF6;&#x5BF9;&#x5E94;&#x8DEF;&#x7531;</span>
+        deactivated: current.slice(i)
+      }
+  }
+  <span class="hljs-comment">// &#x5BFC;&#x822A;&#x5B88;&#x536B;&#x6570;&#x7EC4;</span>
+  <span class="hljs-keyword">const</span> queue: <span class="hljs-built_in">Array</span>&lt;?NavigationGuard&gt; = [].concat(
+    <span class="hljs-comment">// &#x5931;&#x6D3B;&#x7684;&#x7EC4;&#x4EF6;&#x94A9;&#x5B50;</span>
+    extractLeaveGuards(deactivated),
+    <span class="hljs-comment">// &#x5168;&#x5C40; beforeEach &#x94A9;&#x5B50;</span>
+    <span class="hljs-keyword">this</span>.router.beforeHooks,
+    <span class="hljs-comment">// &#x5728;&#x5F53;&#x524D;&#x8DEF;&#x7531;&#x6539;&#x53D8;&#xFF0C;&#x4F46;&#x662F;&#x8BE5;&#x7EC4;&#x4EF6;&#x88AB;&#x590D;&#x7528;&#x65F6;&#x8C03;&#x7528;</span>
+    extractUpdateHooks(updated),
+    <span class="hljs-comment">// &#x9700;&#x8981;&#x6E32;&#x67D3;&#x7EC4;&#x4EF6; enter &#x5B88;&#x536B;&#x94A9;&#x5B50;</span>
+    activated.map(m =&gt; m.beforeEnter),
+    <span class="hljs-comment">// &#x89E3;&#x6790;&#x5F02;&#x6B65;&#x8DEF;&#x7531;&#x7EC4;&#x4EF6;</span>
+    resolveAsyncComponents(activated)
+  )
+  <span class="hljs-comment">// &#x4FDD;&#x5B58;&#x8DEF;&#x7531;</span>
+  <span class="hljs-keyword">this</span>.pending = route
+  <span class="hljs-comment">// &#x8FED;&#x4EE3;&#x5668;&#xFF0C;&#x7528;&#x4E8E;&#x6267;&#x884C; queue &#x4E2D;&#x7684;&#x5BFC;&#x822A;&#x5B88;&#x536B;&#x94A9;&#x5B50;</span>
+  <span class="hljs-keyword">const</span> iterator = (hook: NavigationGuard, next) =&gt; {
+  <span class="hljs-comment">// &#x8DEF;&#x7531;&#x4E0D;&#x76F8;&#x7B49;&#x5C31;&#x4E0D;&#x8DF3;&#x8F6C;&#x8DEF;&#x7531;</span>
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.pending !== route) {
+      <span class="hljs-keyword">return</span> abort()
+    }
+    <span class="hljs-keyword">try</span> {
+    <span class="hljs-comment">// &#x6267;&#x884C;&#x94A9;&#x5B50;</span>
+      hook(route, current, (to: any) =&gt; {
+        <span class="hljs-comment">// &#x53EA;&#x6709;&#x6267;&#x884C;&#x4E86;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x4E2D;&#x7684; next&#xFF0C;&#x624D;&#x4F1A;&#x7EE7;&#x7EED;&#x6267;&#x884C;&#x4E0B;&#x4E00;&#x4E2A;&#x94A9;&#x5B50;&#x51FD;&#x6570;</span>
+        <span class="hljs-comment">// &#x5426;&#x5219;&#x4F1A;&#x6682;&#x505C;&#x8DF3;&#x8F6C;</span>
+        <span class="hljs-comment">// &#x4EE5;&#x4E0B;&#x903B;&#x8F91;&#x662F;&#x5728;&#x5224;&#x65AD; next() &#x4E2D;&#x7684;&#x4F20;&#x53C2;</span>
+        <span class="hljs-keyword">if</span> (to === <span class="hljs-literal">false</span> || isError(to)) {
+          <span class="hljs-comment">// next(false) </span>
+          <span class="hljs-keyword">this</span>.ensureURL(<span class="hljs-literal">true</span>)
+          abort(to)
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (
+          <span class="hljs-keyword">typeof</span> to === <span class="hljs-string">&apos;string&apos;</span> ||
+          (<span class="hljs-keyword">typeof</span> to === <span class="hljs-string">&apos;object&apos;</span> &amp;&amp;
+            (<span class="hljs-keyword">typeof</span> to.path === <span class="hljs-string">&apos;string&apos;</span> || <span class="hljs-keyword">typeof</span> to.name === <span class="hljs-string">&apos;string&apos;</span>))
+        ) {
+        <span class="hljs-comment">// next(&apos;/&apos;) &#x6216;&#x8005; next({ path: &apos;/&apos; }) -&gt; &#x91CD;&#x5B9A;&#x5411;</span>
+          abort()
+          <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> to === <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; to.replace) {
+            <span class="hljs-keyword">this</span>.replace(to)
+          } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">this</span>.push(to)
+          }
+        } <span class="hljs-keyword">else</span> {
+        <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x6267;&#x884C; next</span>
+        <span class="hljs-comment">// &#x4E5F;&#x5C31;&#x662F;&#x6267;&#x884C;&#x4E0B;&#x9762;&#x51FD;&#x6570; runQueue &#x4E2D;&#x7684; step(index + 1)</span>
+          next(to)
+        }
+      })
+    } <span class="hljs-keyword">catch</span> (e) {
+      abort(e)
+    }
+  }
+  <span class="hljs-comment">// &#x7ECF;&#x5178;&#x7684;&#x540C;&#x6B65;&#x6267;&#x884C;&#x5F02;&#x6B65;&#x51FD;&#x6570;</span>
+  runQueue(queue, iterator, () =&gt; {
+    <span class="hljs-keyword">const</span> postEnterCbs = []
+    <span class="hljs-keyword">const</span> isValid = () =&gt; <span class="hljs-keyword">this</span>.current === route
+    <span class="hljs-comment">// &#x5F53;&#x6240;&#x6709;&#x5F02;&#x6B65;&#x7EC4;&#x4EF6;&#x52A0;&#x8F7D;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x4F1A;&#x6267;&#x884C;&#x8FD9;&#x91CC;&#x7684;&#x56DE;&#x8C03;&#xFF0C;&#x4E5F;&#x5C31;&#x662F; runQueue &#x4E2D;&#x7684; cb()</span>
+    <span class="hljs-comment">// &#x63A5;&#x4E0B;&#x6765;&#x6267;&#x884C; &#x9700;&#x8981;&#x6E32;&#x67D3;&#x7EC4;&#x4EF6;&#x7684;&#x5BFC;&#x822A;&#x5B88;&#x536B;&#x94A9;&#x5B50;</span>
+    <span class="hljs-keyword">const</span> enterGuards = extractEnterGuards(activated, postEnterCbs, isValid)
+    <span class="hljs-keyword">const</span> queue = enterGuards.concat(<span class="hljs-keyword">this</span>.router.resolveHooks)
+    runQueue(queue, iterator, () =&gt; {
+    <span class="hljs-comment">// &#x8DF3;&#x8F6C;&#x5B8C;&#x6210;</span>
+      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.pending !== route) {
+        <span class="hljs-keyword">return</span> abort()
+      }
+      <span class="hljs-keyword">this</span>.pending = <span class="hljs-literal">null</span>
+      onComplete(route)
+      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.router.app) {
+        <span class="hljs-keyword">this</span>.router.app.$nextTick(() =&gt; {
+          postEnterCbs.forEach(cb =&gt; {
+            cb()
+          })
+        })
+      }
+    })
+  })
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">runQueue</span> (<span class="hljs-params">queue: Array&lt;?NavigationGuard&gt;, fn: Function, cb: Function</span>) </span>{
+  <span class="hljs-keyword">const</span> step = index =&gt; {
+  <span class="hljs-comment">// &#x961F;&#x5217;&#x4E2D;&#x7684;&#x51FD;&#x6570;&#x90FD;&#x6267;&#x884C;&#x5B8C;&#x6BD5;&#xFF0C;&#x5C31;&#x6267;&#x884C;&#x56DE;&#x8C03;&#x51FD;&#x6570;</span>
+    <span class="hljs-keyword">if</span> (index &gt;= queue.length) {
+      cb()
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">if</span> (queue[index]) {
+      <span class="hljs-comment">// &#x6267;&#x884C;&#x8FED;&#x4EE3;&#x5668;&#xFF0C;&#x7528;&#x6237;&#x5728;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x4E2D;&#x6267;&#x884C; next() &#x56DE;&#x8C03;</span>
+      <span class="hljs-comment">// &#x56DE;&#x8C03;&#x4E2D;&#x5224;&#x65AD;&#x4F20;&#x53C2;&#xFF0C;&#x6CA1;&#x6709;&#x95EE;&#x9898;&#x5C31;&#x6267;&#x884C; next()&#xFF0C;&#x4E5F;&#x5C31;&#x662F; fn &#x51FD;&#x6570;&#x4E2D;&#x7684;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;</span>
+        fn(queue[index], () =&gt; {
+          step(index + <span class="hljs-number">1</span>)
+        })
+      } <span class="hljs-keyword">else</span> {
+        step(index + <span class="hljs-number">1</span>)
+      }
+    }
+  }
+  <span class="hljs-comment">// &#x53D6;&#x51FA;&#x961F;&#x5217;&#x4E2D;&#x7B2C;&#x4E00;&#x4E2A;&#x94A9;&#x5B50;&#x51FD;&#x6570;</span>
+  step(<span class="hljs-number">0</span>)
+}
+</code></pre>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x4ECB;&#x7ECD;&#x5BFC;&#x822A;&#x5B88;&#x536B;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> queue: <span class="hljs-built_in">Array</span>&lt;?NavigationGuard&gt; = [].concat(
+    <span class="hljs-comment">// &#x5931;&#x6D3B;&#x7684;&#x7EC4;&#x4EF6;&#x94A9;&#x5B50;</span>
+    extractLeaveGuards(deactivated),
+    <span class="hljs-comment">// &#x5168;&#x5C40; beforeEach &#x94A9;&#x5B50;</span>
+    <span class="hljs-keyword">this</span>.router.beforeHooks,
+    <span class="hljs-comment">// &#x5728;&#x5F53;&#x524D;&#x8DEF;&#x7531;&#x6539;&#x53D8;&#xFF0C;&#x4F46;&#x662F;&#x8BE5;&#x7EC4;&#x4EF6;&#x88AB;&#x590D;&#x7528;&#x65F6;&#x8C03;&#x7528;</span>
+    extractUpdateHooks(updated),
+    <span class="hljs-comment">// &#x9700;&#x8981;&#x6E32;&#x67D3;&#x7EC4;&#x4EF6; enter &#x5B88;&#x536B;&#x94A9;&#x5B50;</span>
+    activated.map(m =&gt; m.beforeEnter),
+    <span class="hljs-comment">// &#x89E3;&#x6790;&#x5F02;&#x6B65;&#x8DEF;&#x7531;&#x7EC4;&#x4EF6;</span>
+    resolveAsyncComponents(activated)
+)
+</code></pre>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#x662F;&#x5148;&#x6267;&#x884C;&#x5931;&#x6D3B;&#x7EC4;&#x4EF6;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">extractLeaveGuards</span>(<span class="hljs-params">deactivated: Array&lt;RouteRecord&gt;</span>): <span class="hljs-title">Array</span>&lt;?<span class="hljs-title">Function</span>&gt; </span>{
+<span class="hljs-comment">// &#x4F20;&#x5165;&#x9700;&#x8981;&#x6267;&#x884C;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x540D;</span>
+  <span class="hljs-keyword">return</span> extractGuards(deactivated, <span class="hljs-string">&apos;beforeRouteLeave&apos;</span>, bindGuard, <span class="hljs-literal">true</span>)
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">extractGuards</span>(<span class="hljs-params">
+  records: Array&lt;RouteRecord&gt;,
+  name: string,
+  bind: Function,
+  reverse?: boolean
+</span>): <span class="hljs-title">Array</span>&lt;?<span class="hljs-title">Function</span>&gt; </span>{
+  <span class="hljs-keyword">const</span> guards = flatMapComponents(records, (def, instance, match, key) =&gt; {
+   <span class="hljs-comment">// &#x627E;&#x51FA;&#x7EC4;&#x4EF6;&#x4E2D;&#x5BF9;&#x5E94;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;</span>
+    <span class="hljs-keyword">const</span> guard = extractGuard(def, name)
+    <span class="hljs-keyword">if</span> (guard) {
+    <span class="hljs-comment">// &#x7ED9;&#x6BCF;&#x4E2A;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x6DFB;&#x52A0;&#x4E0A;&#x4E0B;&#x6587;&#x5BF9;&#x8C61;&#x4E3A;&#x7EC4;&#x4EF6;&#x81EA;&#x8EAB;</span>
+      <span class="hljs-keyword">return</span> <span class="hljs-built_in">Array</span>.isArray(guard)
+        ? guard.map(guard =&gt; bind(guard, instance, match, key))
+        : bind(guard, instance, match, key)
+    }
+  })
+  <span class="hljs-comment">// &#x6570;&#x7EC4;&#x964D;&#x7EF4;&#xFF0C;&#x5E76;&#x4E14;&#x5224;&#x65AD;&#x662F;&#x5426;&#x9700;&#x8981;&#x7FFB;&#x8F6C;&#x6570;&#x7EC4;</span>
+  <span class="hljs-comment">// &#x56E0;&#x4E3A;&#x67D0;&#x4E9B;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x9700;&#x8981;&#x4ECE;&#x5B50;&#x6267;&#x884C;&#x5230;&#x7236;</span>
+  <span class="hljs-keyword">return</span> flatten(reverse ? guards.reverse() : guards)
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">flatMapComponents</span> (<span class="hljs-params">
+  matched: Array&lt;RouteRecord&gt;,
+  fn: Function
+</span>): <span class="hljs-title">Array</span>&lt;?<span class="hljs-title">Function</span>&gt; </span>{
+<span class="hljs-comment">// &#x6570;&#x7EC4;&#x964D;&#x7EF4;</span>
+  <span class="hljs-keyword">return</span> flatten(matched.map(m =&gt; {
+  <span class="hljs-comment">// &#x5C06;&#x7EC4;&#x4EF6;&#x4E2D;&#x7684;&#x5BF9;&#x8C61;&#x4F20;&#x5165;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x83B7;&#x5F97;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x6570;&#x7EC4;</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">Object</span>.keys(m.components).map(key =&gt; fn(
+      m.components[key],
+      m.instances[key],
+      m, key
+    ))
+  }))
+}
+</code></pre>
+<p>&#x7B2C;&#x4E8C;&#x6B65;&#x6267;&#x884C;&#x5168;&#x5C40; beforeEach &#x94A9;&#x5B50;&#x51FD;&#x6570;</p>
+<pre><code class="lang-js">beforeEach(fn: <span class="hljs-built_in">Function</span>): <span class="hljs-built_in">Function</span> {
+    <span class="hljs-keyword">return</span> registerHook(<span class="hljs-keyword">this</span>.beforeHooks, fn)
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">registerHook</span>(<span class="hljs-params">list: Array&lt;any&gt;, fn: Function</span>): <span class="hljs-title">Function</span> </span>{
+  list.push(fn)
+  <span class="hljs-keyword">return</span> () =&gt; {
+    <span class="hljs-keyword">const</span> i = list.indexOf(fn)
+    <span class="hljs-keyword">if</span> (i &gt; <span class="hljs-number">-1</span>) list.splice(i, <span class="hljs-number">1</span>)
+  }
+}
+</code></pre>
+<p>&#x5728; VueRouter &#x7C7B;&#x4E2D;&#x6709;&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#xFF0C;&#x6BCF;&#x5F53;&#x7ED9; VueRouter &#x5B9E;&#x4F8B;&#x6DFB;&#x52A0; beforeEach &#x51FD;&#x6570;&#x65F6;&#x5C31;&#x4F1A;&#x5C06;&#x51FD;&#x6570; push &#x8FDB; beforeHooks &#x4E2D;&#x3002;</p>
+<p>&#x7B2C;&#x4E09;&#x6B65;&#x6267;&#x884C; <code>beforeRouteUpdate</code> &#x94A9;&#x5B50;&#x51FD;&#x6570;&#xFF0C;&#x8C03;&#x7528;&#x65B9;&#x5F0F;&#x548C;&#x7B2C;&#x4E00;&#x6B65;&#x76F8;&#x540C;&#xFF0C;&#x53EA;&#x662F;&#x4F20;&#x5165;&#x7684;&#x51FD;&#x6570;&#x540D;&#x4E0D;&#x540C;&#xFF0C;&#x5728;&#x8BE5;&#x51FD;&#x6570;&#x4E2D;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x5230; <code>this</code> &#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x7B2C;&#x56DB;&#x6B65;&#x6267;&#x884C; <code>beforeEnter</code> &#x94A9;&#x5B50;&#x51FD;&#x6570;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x662F;&#x8DEF;&#x7531;&#x72EC;&#x4EAB;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x3002;</p>
+<p>&#x7B2C;&#x4E94;&#x6B65;&#x662F;&#x89E3;&#x6790;&#x5F02;&#x6B65;&#x7EC4;&#x4EF6;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">resolveAsyncComponents</span> (<span class="hljs-params">matched: Array&lt;RouteRecord&gt;</span>): <span class="hljs-title">Function</span> </span>{
+  <span class="hljs-keyword">return</span> (to, <span class="hljs-keyword">from</span>, next) =&gt; {
+    <span class="hljs-keyword">let</span> hasAsync = <span class="hljs-literal">false</span>
+    <span class="hljs-keyword">let</span> pending = <span class="hljs-number">0</span>
+    <span class="hljs-keyword">let</span> error = <span class="hljs-literal">null</span>
+    <span class="hljs-comment">// &#x8BE5;&#x51FD;&#x6570;&#x4F5C;&#x7528;&#x4E4B;&#x524D;&#x5DF2;&#x7ECF;&#x4ECB;&#x7ECD;&#x8FC7;&#x4E86;</span>
+    flatMapComponents(matched, (def, _, match, key) =&gt; {
+    <span class="hljs-comment">// &#x5224;&#x65AD;&#x662F;&#x5426;&#x662F;&#x5F02;&#x6B65;&#x7EC4;&#x4EF6;</span>
+      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> def === <span class="hljs-string">&apos;function&apos;</span> &amp;&amp; def.cid === <span class="hljs-literal">undefined</span>) {
+        hasAsync = <span class="hljs-literal">true</span>
+        pending++
+        <span class="hljs-comment">// &#x6210;&#x529F;&#x56DE;&#x8C03;</span>
+        <span class="hljs-comment">// once &#x51FD;&#x6570;&#x786E;&#x4FDD;&#x5F02;&#x6B65;&#x7EC4;&#x4EF6;&#x53EA;&#x52A0;&#x8F7D;&#x4E00;&#x6B21;</span>
+        <span class="hljs-keyword">const</span> resolve = once(resolvedDef =&gt; {
+          <span class="hljs-keyword">if</span> (isESModule(resolvedDef)) {
+            resolvedDef = resolvedDef.default
+          }
+          <span class="hljs-comment">// &#x5224;&#x65AD;&#x662F;&#x5426;&#x662F;&#x6784;&#x9020;&#x51FD;&#x6570;</span>
+          <span class="hljs-comment">// &#x4E0D;&#x662F;&#x7684;&#x8BDD;&#x901A;&#x8FC7; Vue &#x6765;&#x751F;&#x6210;&#x7EC4;&#x4EF6;&#x6784;&#x9020;&#x51FD;&#x6570;</span>
+          def.resolved = <span class="hljs-keyword">typeof</span> resolvedDef === <span class="hljs-string">&apos;function&apos;</span>
+            ? resolvedDef
+            : _Vue.extend(resolvedDef)
+        <span class="hljs-comment">// &#x8D4B;&#x503C;&#x7EC4;&#x4EF6;</span>
+        <span class="hljs-comment">// &#x5982;&#x679C;&#x7EC4;&#x4EF6;&#x5168;&#x90E8;&#x89E3;&#x6790;&#x5B8C;&#x6BD5;&#xFF0C;&#x7EE7;&#x7EED;&#x4E0B;&#x4E00;&#x6B65;</span>
+          match.components[key] = resolvedDef
+          pending--
+          <span class="hljs-keyword">if</span> (pending &lt;= <span class="hljs-number">0</span>) {
+            next()
+          }
+        })
+        <span class="hljs-comment">// &#x5931;&#x8D25;&#x56DE;&#x8C03;</span>
+        <span class="hljs-keyword">const</span> reject = once(reason =&gt; {
+          <span class="hljs-keyword">const</span> msg = <span class="hljs-string">`Failed to resolve async component <span class="hljs-subst">${key}</span>: <span class="hljs-subst">${reason}</span>`</span>
+          process.env.NODE_ENV !== <span class="hljs-string">&apos;production&apos;</span> &amp;&amp; warn(<span class="hljs-literal">false</span>, msg)
+          <span class="hljs-keyword">if</span> (!error) {
+            error = isError(reason)
+              ? reason
+              : <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(msg)
+            next(error)
+          }
+        })
+        <span class="hljs-keyword">let</span> res
+        <span class="hljs-keyword">try</span> {
+        <span class="hljs-comment">// &#x6267;&#x884C;&#x5F02;&#x6B65;&#x7EC4;&#x4EF6;&#x51FD;&#x6570;</span>
+          res = def(resolve, reject)
+        } <span class="hljs-keyword">catch</span> (e) {
+          reject(e)
+        }
+        <span class="hljs-keyword">if</span> (res) {
+        <span class="hljs-comment">// &#x4E0B;&#x8F7D;&#x5B8C;&#x6210;&#x6267;&#x884C;&#x56DE;&#x8C03;</span>
+          <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> res.then === <span class="hljs-string">&apos;function&apos;</span>) {
+            res.then(resolve, reject)
+          } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">const</span> comp = res.component
+            <span class="hljs-keyword">if</span> (comp &amp;&amp; <span class="hljs-keyword">typeof</span> comp.then === <span class="hljs-string">&apos;function&apos;</span>) {
+              comp.then(resolve, reject)
+            }
+          }
+        }
+      }
+    })
+    <span class="hljs-comment">// &#x4E0D;&#x662F;&#x5F02;&#x6B65;&#x7EC4;&#x4EF6;&#x76F4;&#x63A5;&#x4E0B;&#x4E00;&#x6B65;</span>
+    <span class="hljs-keyword">if</span> (!hasAsync) next()
+  }
+}
+</code></pre>
+<p>&#x4EE5;&#x4E0A;&#x5C31;&#x662F;&#x7B2C;&#x4E00;&#x4E2A; <code>runQueue</code> &#x4E2D;&#x7684;&#x903B;&#x8F91;&#xFF0C;&#x7B2C;&#x4E94;&#x6B65;&#x5B8C;&#x6210;&#x540E;&#x4F1A;&#x6267;&#x884C;&#x7B2C;&#x4E00;&#x4E2A; <code>runQueue</code> &#x4E2D;&#x56DE;&#x8C03;&#x51FD;&#x6570;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// &#x8BE5;&#x56DE;&#x8C03;&#x7528;&#x4E8E;&#x4FDD;&#x5B58; `beforeRouteEnter` &#x94A9;&#x5B50;&#x4E2D;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;</span>
+<span class="hljs-keyword">const</span> postEnterCbs = []
+<span class="hljs-keyword">const</span> isValid = () =&gt; <span class="hljs-keyword">this</span>.current === route
+<span class="hljs-comment">// beforeRouteEnter &#x5BFC;&#x822A;&#x5B88;&#x536B;&#x94A9;&#x5B50;</span>
+<span class="hljs-keyword">const</span> enterGuards = extractEnterGuards(activated, postEnterCbs, isValid)
+<span class="hljs-comment">// beforeResolve &#x5BFC;&#x822A;&#x5B88;&#x536B;&#x94A9;&#x5B50;</span>
+<span class="hljs-keyword">const</span> queue = enterGuards.concat(<span class="hljs-keyword">this</span>.router.resolveHooks)
+runQueue(queue, iterator, () =&gt; {
+  <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.pending !== route) {
+    <span class="hljs-keyword">return</span> abort()
+  }
+  <span class="hljs-keyword">this</span>.pending = <span class="hljs-literal">null</span>
+  <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x4F1A;&#x6267;&#x884C; afterEach &#x5BFC;&#x822A;&#x5B88;&#x536B;&#x94A9;&#x5B50;</span>
+  onComplete(route)
+  <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.router.app) {
+    <span class="hljs-keyword">this</span>.router.app.$nextTick(() =&gt; {
+      postEnterCbs.forEach(cb =&gt; {
+        cb()
+      })
+    })
+  }
+})
+</code></pre>
+<p>&#x7B2C;&#x516D;&#x6B65;&#x662F;&#x6267;&#x884C; <code>beforeRouteEnter</code> &#x5BFC;&#x822A;&#x5B88;&#x536B;&#x94A9;&#x5B50;&#xFF0C;<code>beforeRouteEnter</code> &#x94A9;&#x5B50;&#x4E0D;&#x80FD;&#x8BBF;&#x95EE; <code>this</code> &#x5BF9;&#x8C61;&#xFF0C;&#x56E0;&#x4E3A;&#x94A9;&#x5B50;&#x5728;&#x5BFC;&#x822A;&#x786E;&#x8BA4;&#x524D;&#x88AB;&#x8C03;&#x7528;&#xFF0C;&#x9700;&#x8981;&#x6E32;&#x67D3;&#x7684;&#x7EC4;&#x4EF6;&#x8FD8;&#x6CA1;&#x88AB;&#x521B;&#x5EFA;&#x3002;&#x4F46;&#x662F;&#x8BE5;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x662F;&#x552F;&#x4E00;&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x5728;&#x56DE;&#x8C03;&#x4E2D;&#x83B7;&#x53D6; <code>this</code> &#x5BF9;&#x8C61;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x56DE;&#x8C03;&#x4F1A;&#x5728;&#x8DEF;&#x7531;&#x786E;&#x8BA4;&#x6267;&#x884C;&#x3002;</p>
+<pre><code class="lang-js">beforeRouteEnter (to, <span class="hljs-keyword">from</span>, next) {
+  next(vm =&gt; {
+    <span class="hljs-comment">// &#x901A;&#x8FC7; `vm` &#x8BBF;&#x95EE;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;</span>
+  })
+}
+</code></pre>
+<p>&#x4E0B;&#x9762;&#x6765;&#x770B;&#x770B;&#x662F;&#x5982;&#x4F55;&#x652F;&#x6301;&#x5728;&#x56DE;&#x8C03;&#x4E2D;&#x62FF;&#x5230; <code>this</code> &#x5BF9;&#x8C61;&#x7684;</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">extractEnterGuards</span>(<span class="hljs-params">
+  activated: Array&lt;RouteRecord&gt;,
+  cbs: Array&lt;Function&gt;,
+  isValid: (</span>) =&gt; <span class="hljs-title">boolean</span>
+): <span class="hljs-title">Array</span>&lt;?<span class="hljs-title">Function</span>&gt; </span>{
+<span class="hljs-comment">// &#x8FD9;&#x91CC;&#x548C;&#x4E4B;&#x524D;&#x8C03;&#x7528;&#x5BFC;&#x822A;&#x5B88;&#x536B;&#x57FA;&#x672C;&#x4E00;&#x81F4;</span>
+  <span class="hljs-keyword">return</span> extractGuards(
+    activated,
+    <span class="hljs-string">&apos;beforeRouteEnter&apos;</span>,
+    (guard, _, match, key) =&gt; {
+      <span class="hljs-keyword">return</span> bindEnterGuard(guard, match, key, cbs, isValid)
+    }
+  )
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">bindEnterGuard</span>(<span class="hljs-params">
+  guard: NavigationGuard,
+  match: RouteRecord,
+  key: string,
+  cbs: Array&lt;Function&gt;,
+  isValid: (</span>) =&gt; <span class="hljs-title">boolean</span>
+): <span class="hljs-title">NavigationGuard</span> </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">routeEnterGuard</span>(<span class="hljs-params">to, from, next</span>) </span>{
+    <span class="hljs-keyword">return</span> guard(to, <span class="hljs-keyword">from</span>, cb =&gt; {
+    <span class="hljs-comment">// &#x5224;&#x65AD; cb &#x662F;&#x5426;&#x662F;&#x51FD;&#x6570;</span>
+    <span class="hljs-comment">// &#x662F;&#x7684;&#x8BDD;&#x5C31; push &#x8FDB; postEnterCbs</span>
+      next(cb)
+      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> cb === <span class="hljs-string">&apos;function&apos;</span>) {
+        cbs.push(() =&gt; {
+          <span class="hljs-comment">// &#x5FAA;&#x73AF;&#x76F4;&#x5230;&#x62FF;&#x5230;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;</span>
+          poll(cb, match.instances, key, isValid)
+        })
+      }
+    })
+  }
+}
+<span class="hljs-comment">// &#x8BE5;&#x51FD;&#x6570;&#x662F;&#x4E3A;&#x4E86;&#x89E3;&#x51B3; issus #750</span>
+<span class="hljs-comment">// &#x5F53; router-view &#x5916;&#x9762;&#x5305;&#x88F9;&#x4E86; mode &#x4E3A; out-in &#x7684; transition &#x7EC4;&#x4EF6; </span>
+<span class="hljs-comment">// &#x4F1A;&#x5728;&#x7EC4;&#x4EF6;&#x521D;&#x6B21;&#x5BFC;&#x822A;&#x5230;&#x65F6;&#x83B7;&#x5F97;&#x4E0D;&#x5230;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">poll</span>(<span class="hljs-params">
+  cb: any, <span class="hljs-comment">// somehow flow cannot infer this is a function</span>
+  instances: Object,
+  key: string,
+  isValid: (</span>) =&gt; <span class="hljs-title">boolean</span>
+) </span>{
+  <span class="hljs-keyword">if</span> (
+    instances[key] &amp;&amp;
+    !instances[key]._isBeingDestroyed <span class="hljs-comment">// do not reuse being destroyed instance</span>
+  ) {
+    cb(instances[key])
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (isValid()) {
+  <span class="hljs-comment">// setTimeout 16ms &#x4F5C;&#x7528;&#x548C; nextTick &#x57FA;&#x672C;&#x76F8;&#x540C;</span>
+    setTimeout(() =&gt; {
+      poll(cb, instances, key, isValid)
+    }, <span class="hljs-number">16</span>)
+  }
+}
+</code></pre>
+<p>&#x7B2C;&#x4E03;&#x6B65;&#x662F;&#x6267;&#x884C; <code>beforeResolve</code> &#x5BFC;&#x822A;&#x5B88;&#x536B;&#x94A9;&#x5B50;&#xFF0C;&#x5982;&#x679C;&#x6CE8;&#x518C;&#x4E86;&#x5168;&#x5C40; <code>beforeResolve</code> &#x94A9;&#x5B50;&#x5C31;&#x4F1A;&#x5728;&#x8FD9;&#x91CC;&#x6267;&#x884C;&#x3002;</p>
+<p>&#x7B2C;&#x516B;&#x6B65;&#x5C31;&#x662F;&#x5BFC;&#x822A;&#x786E;&#x8BA4;&#xFF0C;&#x8C03;&#x7528; <code>afterEach</code> &#x5BFC;&#x822A;&#x5B88;&#x536B;&#x94A9;&#x5B50;&#x4E86;&#x3002;</p>
+<p>&#x4EE5;&#x4E0A;&#x90FD;&#x6267;&#x884C;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x4F1A;&#x89E6;&#x53D1;&#x7EC4;&#x4EF6;&#x7684;&#x6E32;&#x67D3;</p>
+<pre><code class="lang-js">history.listen(route =&gt; {
+      <span class="hljs-keyword">this</span>.apps.forEach(app =&gt; {
+        app._route = route
+      })
+})
+</code></pre>
+<p>&#x4EE5;&#x4E0A;&#x56DE;&#x8C03;&#x4F1A;&#x5728; <code>updateRoute</code> &#x4E2D;&#x8C03;&#x7528;</p>
+<pre><code class="lang-js">updateRoute(route: Route) {
+    <span class="hljs-keyword">const</span> prev = <span class="hljs-keyword">this</span>.current
+    <span class="hljs-keyword">this</span>.current = route
+    <span class="hljs-keyword">this</span>.cb &amp;&amp; <span class="hljs-keyword">this</span>.cb(route)
+    <span class="hljs-keyword">this</span>.router.afterHooks.forEach(hook =&gt; {
+      hook &amp;&amp; hook(route, prev)
+    })
+}
+</code></pre>
+<p>&#x81F3;&#x6B64;&#xFF0C;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;&#x5DF2;&#x7ECF;&#x5168;&#x90E8;&#x5206;&#x6790;&#x5B8C;&#x6BD5;&#x3002;&#x6838;&#x5FC3;&#x5C31;&#x662F;&#x5224;&#x65AD;&#x9700;&#x8981;&#x8DF3;&#x8F6C;&#x7684;&#x8DEF;&#x7531;&#x662F;&#x5426;&#x5B58;&#x5728;&#x4E8E;&#x8BB0;&#x5F55;&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x6267;&#x884C;&#x5404;&#x79CD;&#x5BFC;&#x822A;&#x5B88;&#x536B;&#x51FD;&#x6570;&#xFF0C;&#x6700;&#x540E;&#x5B8C;&#x6210; URL &#x7684;&#x6539;&#x53D8;&#x548C;&#x7EC4;&#x4EF6;&#x7684;&#x6E32;&#x67D3;&#x3002; </p>
+<footer class="page-footer"><span class="copyright">&#xA9; Tony all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-8-16 13:26:02
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="react-zh.html" class="navigation navigation-prev " aria-label="Previous page: react">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Git/git-zh.html" class="navigation navigation-next " aria-label="Next page: Git">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"vue","level":"1.5.2","depth":2,"next":{"title":"Git","level":"1.6","depth":1,"path":"docs/Git/git-zh.md","ref":"docs/Git/git-zh.md","articles":[]},"previous":{"title":"react","level":"1.5.1","depth":2,"path":"docs/Framework/react-zh.md","ref":"docs/Framework/react-zh.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","chapter-fold","code","favicon","tbfed-pagefooter","-sharing","sharing-plus","github","github-buttons","lightbox"],"styles":{"website":"/source/css/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy Tony","modify_label":"该文件修订时间：","modify_format":"2019-8-16 13:26:02"},"chapter-fold":{},"github":{"url":"https://github.com/Tony-Code"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"/source/images/favicon.ico","bookmark":"/source/images/favicon.ico","appleTouch":"/source/images/favicon.ico","appleTouchMore":{"120x120":"/source/images/favicon.ico","180x180":"/source/images/favicon.ico"}},"lightbox":{"jquery":true},"github-buttons":{"buttons":[{"user":"Tony-Code","repo":"javascript","type":"star","size":"small","count":true}]},"sharing":{"qq":false,"all":["weibo","qq","qzone","douban"],"douban":false,"facebook":true,"weibo":false,"twitter":true,"pocket":false,"google":true,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"tony","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"JavaScript中文文档","language":"zh-hans","gitbook":"3.2.3","description":"JavaScript文档"},"file":{"path":"docs/Framework/vue-zh.md","mtime":"2019-07-27T02:42:40.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-16T10:20:53.249Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/jquery.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
